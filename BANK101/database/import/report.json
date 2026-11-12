@@ -1,0 +1,4335 @@
+{
+ "counts": {
+  "UNCONFIRMED": 65,
+  "VERIFIED": 86,
+  "PARSE": 53,
+  "BAD_TEXT": 192,
+  "DISAGREE": 87,
+  "E_UNPROVEN": 22,
+  "BAD_OPTIONS": 34,
+  "DUPLICATE": 1
+ },
+ "rows": [
+  {
+   "quiz": 1,
+   "question": 1,
+   "text": "5004 ÷ 139 - 6 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 1,
+   "question": 2,
+   "text": "2 - [ 2 - { 2 - 2 ( 2 + 2 ) } ] = ?",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 1,
+   "question": 3,
+   "text": "3640 ÷ 14 × 16 + 340 = ?",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 1,
+   "question": 4,
+   "text": "100 × 10 - 100 + 2000 ÷ 100 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 1,
+   "question": 5,
+   "text": "- - -",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 1,
+   "question": 6,
+   "text": "-",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 1,
+   "question": 7,
+   "text": "- -",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 1,
+   "question": 8,
+   "text": "",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "empty question text (the expression was an image)"
+  },
+  {
+   "quiz": 1,
+   "question": 9,
+   "text": "of 168 × 15 ÷ 5 + ? = 549 ÷ 9 + 235",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 1,
+   "question": 10,
+   "text": "5 ÷ ? = 2",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 2,
+   "question": 1,
+   "text": "𝟒 𝟗 × 1701 + 𝟐 𝟏𝟏 × 1386 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 2,
+   "question": 2,
+   "text": "9 𝟑 𝟕 + 6 𝟒 𝟕 - ? = 14 𝟒 𝟕",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 2,
+   "question": 3,
+   "text": "𝟒 𝟓 × ? × 𝟑 𝟕 = 𝟏𝟔 𝟏𝟎𝟓",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 2,
+   "question": 4,
+   "text": "52 + 132 - 112 = (?)3 - 52",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 2,
+   "question": 5,
+   "text": "98643 - 21748 = 51212 + ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 2,
+   "question": 6,
+   "text": "94736 + 43693 + 25638 = ?",
+   "key": "E",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 2,
+   "question": 7,
+   "text": "- 948 + 147 - ? = - 1432",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 2,
+   "question": 8,
+   "text": "(?)3 × (55) ÷ 225 = 3000",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 2,
+   "question": 9,
+   "text": "(? - 968) ÷ 79 × 4 = 512",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 2,
+   "question": 10,
+   "text": "4 𝟕 × 2 3 × ? = 1008",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 3,
+   "question": 1,
+   "text": "(764 × ?) ÷ 250 = 382",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 3,
+   "question": 2,
+   "text": "𝟏 𝟒 × (4856 × 0.5) × 12 = ?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 3,
+   "question": 3,
+   "text": "853 + ? ÷ 17 = 1000",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 3,
+   "question": 4,
+   "text": "9643 - 7750 + ? = 4990",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 3,
+   "question": 5,
+   "text": "6156 ÷ √? × 53 = 4028",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 3,
+   "question": 6,
+   "text": "18 𝟐 𝟑 + 7 𝟏 𝟐 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 3,
+   "question": 7,
+   "text": "(38)2 + (63)2 + (?)2 = 6089",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 3,
+   "question": 8,
+   "text": "- 224 + (- 314) × (- 9) = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 3,
+   "question": 9,
+   "text": "8.7 + 6.2 × 7.5 = ?",
+   "key": "E",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 3,
+   "question": 10,
+   "text": "64344 + 5239 + 4423 + 123 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 4,
+   "question": 1,
+   "text": "[(3)3 × (5)4] ÷ (3)5 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 4,
+   "question": 2,
+   "text": "(608.40 × ?) ÷ 225 + 37 = 375",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 4,
+   "question": 3,
+   "text": "12.25 × 7.2 + 84.33 = ?",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 4,
+   "question": 4,
+   "text": "√ + 416 = (60% of 920) - 110",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 4,
+   "question": 5,
+   "text": "(14896 ÷ 19) ÷ 16 = ?",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 4,
+   "question": 6,
+   "text": "[(4)3 × (5)4] ÷ (4)5 = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 4,
+   "question": 7,
+   "text": "8195 ÷ 745 + ? × 12 = 7847",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 4,
+   "question": 8,
+   "text": "7 of 189 + 452 = 2000 - ?",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 4,
+   "question": 9,
+   "text": "(45)2 + (21)2 = (?)2 + 257",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 4,
+   "question": 10,
+   "text": "65% of 400 + √ = 44% of 800 - 12% of 400",
+   "key": "A",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 5,
+   "question": 1,
+   "text": "of 58 + of 139.2 = ?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 5,
+   "question": 2,
+   "text": "12% of 555 + 15% of 666 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 5,
+   "question": 3,
+   "text": "84368 + 65466 - 72009 - 13964 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 5,
+   "question": 4,
+   "text": "337.8 × 331.2 ÷ 335 = 33 × 33?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 5,
+   "question": 5,
+   "text": "",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "empty question text (the expression was an image)"
+  },
+  {
+   "quiz": 5,
+   "question": 6,
+   "text": "8965 + 3974 + 8652 + 185 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 5,
+   "question": 7,
+   "text": "of 117 - of 65 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 5,
+   "question": 8,
+   "text": "= ?",
+   "key": "E",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 5,
+   "question": 9,
+   "text": "38% of 7500 + ?% of 375 = 50% of 6000",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 5,
+   "question": 10,
+   "text": "29(119 ÷ 17) - 149 + 2006 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 6,
+   "question": 1,
+   "text": "63 × 34 ÷ 93 + ?2 = 72",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 6,
+   "question": 2,
+   "text": "70% of 1680 + ?% of 1750 = 55% of 2820 - 886",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 6,
+   "question": 3,
+   "text": "326 × 14 - 12 × 88 + (49)2 = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 6,
+   "question": 4,
+   "text": "46% of 1250 + ?% of 4680 = 1183.4",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 6,
+   "question": 5,
+   "text": "8 + 4 = 5 + ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 6,
+   "question": 6,
+   "text": "6561 ÷ 9 ÷ 81 = ?",
+   "key": "E",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 6,
+   "question": 7,
+   "text": "√ = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 6,
+   "question": 8,
+   "text": "= ?",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 6,
+   "question": 9,
+   "text": "9.6 × 3.6 + 7.2 + 10.8 of - = ?",
+   "key": "A",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 6,
+   "question": 10,
+   "text": "√ - = (?)2",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 7,
+   "question": 1,
+   "text": "85% of 620 + x% of 480 = 70% of 890",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 7,
+   "question": 2,
+   "text": "(624 + 146) × 2 ÷ 77 = ? ÷ (- 2)",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 7,
+   "question": 3,
+   "text": "(5.25 × 6 × 4) ÷ 7 - 2 = ?2",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 7,
+   "question": 4,
+   "text": "(6√ × 2√ × 4√ ) ÷ 12 = ? + 123 - 59",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 7,
+   "question": 5,
+   "text": "[(√ + √ ) - (29 + 5)] ÷ 4 = ?1/2",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 7,
+   "question": 6,
+   "text": "0.8 × 8 ÷ 0.88 × √ = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 7,
+   "question": 7,
+   "text": "(4326 + 3189 - 5155) = ? × 59",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 7,
+   "question": 8,
+   "text": "636 × 5 ÷ 6 + 221 ÷ 17 × 13 = ? + 210",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 7,
+   "question": 9,
+   "text": "of of of 4820 = ? × 3",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 7,
+   "question": 10,
+   "text": "412 × 28 ÷ 163 = 16?+3 × 24",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 8,
+   "question": 1,
+   "text": "333.44 + 33.4444 + 3.444 + 3333.4 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 8,
+   "question": 2,
+   "text": "1 - 2 + 5 = ? +",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 8,
+   "question": 3,
+   "text": "?2 - 18.75 - 11.25 = 9.09% of 396 + 295",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 8,
+   "question": 4,
+   "text": "(37.5% of 1160) ÷ (√ - √ ) = ? + 23",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 8,
+   "question": 5,
+   "text": "(11.275 + 101.237 + 13.5) ÷ √ - (17.657 + 18.976) ÷ 22 = ?2 + 8.379 ÷ 4",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 8,
+   "question": 6,
+   "text": "4 × [ ÷ ( + - ) ] = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '÷')"
+  },
+  {
+   "quiz": 8,
+   "question": 7,
+   "text": "?2 + 200 ÷ √ - 62 ×7 = 18 + √",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 8,
+   "question": 8,
+   "text": "(2641 + 1155 - 3351) = ?1/2 × 5",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 8,
+   "question": 9,
+   "text": "42% of 2150 ÷ ? = √ ÷ √",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 8,
+   "question": 10,
+   "text": "√ + 241.56 - 128.87 = ?1/2 + 115.69",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 9,
+   "question": 1,
+   "text": "40% of 375 ÷ √ × 30 = 4500 ÷ ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 9,
+   "question": 2,
+   "text": "?3 - 300 - 43 + 4 = 148 ÷ 37",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 9,
+   "question": 3,
+   "text": "299 ÷ √ × 11 - √ = ?2 + 38",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 9,
+   "question": 4,
+   "text": "42.5% of 750 = ?% of 43 - 26% of ?",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 9,
+   "question": 5,
+   "text": "2 - 3 + 5 = ? × 87",
+   "key": "C",
+   "status": "BAD_OPTIONS",
+   "reason": "option '' is blank or not a plain number"
+  },
+  {
+   "quiz": 9,
+   "question": 6,
+   "text": "32.5% of 1388 - √ ÷ 4 × √ = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '÷')"
+  },
+  {
+   "quiz": 9,
+   "question": 7,
+   "text": "94.5 × 512 ÷ √ ÷ 6.4 = ?2 + 56",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 9,
+   "question": 8,
+   "text": "2 × [( 11 ÷ ( + 2 - ) ] = ? ÷ 72.5 × 204",
+   "key": "A",
+   "status": "BAD_OPTIONS",
+   "reason": "option '' is blank or not a plain number"
+  },
+  {
+   "quiz": 9,
+   "question": 9,
+   "text": "(2477.68 + 1254.87 - 3647.89) = ? × 13 - 84.34",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 9,
+   "question": 10,
+   "text": "27.5% of 256 - ? % of 340 = - 31.6",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "option '25%' is blank or not a plain number"
+  },
+  {
+   "quiz": 10,
+   "question": 1,
+   "text": "5 + 3 + 1 = ? + 4",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 10,
+   "question": 2,
+   "text": "√ √ + 2 + √ = ?2",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 10,
+   "question": 3,
+   "text": "(1.6 + 3.2)2 = + 256 × √",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 10,
+   "question": 4,
+   "text": "√ - = ?1/3",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 10,
+   "question": 5,
+   "text": "(3469.24 + 1209.53 - 2046.27) = ?2 + 2551.5",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 10,
+   "question": 6,
+   "text": "=",
+   "key": "A",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 10,
+   "question": 7,
+   "text": "11.5% of 288 - ?% of 150 = - 1016.88",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 10,
+   "question": 8,
+   "text": "(7657.63 + 2587.97 - 8876.6) × (5741.65 - 1981.22 - 1975.43) = ?2 × √",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 10,
+   "question": 9,
+   "text": "8452 - (529 - 874 + 361) = ?2 × 849",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 10,
+   "question": 10,
+   "text": "(17.5)2 - 472.5 + (13.5)2 = ? + 182.25",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 11,
+   "question": 1,
+   "text": "√ √ √ √ √ = ? ÷ 3",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 11,
+   "question": 2,
+   "text": "1089 ÷ √ ÷ 11 + √ = ?2 - 652.75",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 11,
+   "question": 3,
+   "text": "72.9 ÷ 81 × √ = ?1/2 ÷ √ + √",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 11,
+   "question": 4,
+   "text": "48.3 × 289 ÷ 3.4 ÷ 23 ÷ 68 × 21 = ?3 + 28.125",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 11,
+   "question": 5,
+   "text": "4 + 2 - 5 = ? + 2",
+   "key": "E",
+   "status": "BAD_OPTIONS",
+   "reason": "option '' is blank or not a plain number"
+  },
+  {
+   "quiz": 11,
+   "question": 6,
+   "text": "(16.67% of 4446 × 1292) ÷ (37.5% of 2584) = ?3 - 343",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 11,
+   "question": 7,
+   "text": "17.5% of 754 = ?1/2 + 51.31 + 51.64",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 11,
+   "question": 8,
+   "text": "? ÷ √ = 351 × 216 ÷ ?2 ÷ 169 ÷ 36",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 11,
+   "question": 9,
+   "text": "6 - 5 + 2 = ? + 6 - 5",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 11,
+   "question": 10,
+   "text": "? ÷ 1156 = 6859 × .64 ÷ ? ÷ 19",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "unreadable character near '.64 ÷ ? '"
+  },
+  {
+   "quiz": 12,
+   "question": 1,
+   "text": "57% of 350 + ?% of 170 = - 89.5 - √ - 9",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 12,
+   "question": 2,
+   "text": "6 + - 4 = ? -",
+   "key": "C",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 12,
+   "question": 3,
+   "text": "87 × 6.3 ÷ √ + 11.5 - 16.3 + 13.8 = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '+')"
+  },
+  {
+   "quiz": 12,
+   "question": 4,
+   "text": "√ ÷ ?% of 270 = 115 √ ÷ ?2",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 12,
+   "question": 5,
+   "text": "?2% of 1219 ÷ 53 = (246.74 - 181.36 + 103.62) ÷ 23",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 12,
+   "question": 6,
+   "text": "120 × 2 × 17.5 = ? × 168",
+   "key": "E",
+   "status": "DISAGREE",
+   "reason": "PDF key E but our calculation gives D; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 12,
+   "question": 7,
+   "text": "787.20 + 809.61 + 812.80 + 778.39 = ? + 699.039 + 700.961",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 12,
+   "question": 8,
+   "text": "3 ÷ 2 × ( + - 1 ) = ?",
+   "key": "A",
+   "status": "BAD_OPTIONS",
+   "reason": "option '-' is blank or not a plain number"
+  },
+  {
+   "quiz": 12,
+   "question": 9,
+   "text": "(775.67 - 200.68 + 101.01) ÷ √ = ?3 - √",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 12,
+   "question": 10,
+   "text": "2.32 - 12.42 + 2.72 = ?2 ÷ √",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 13,
+   "question": 1,
+   "text": "323.46 + 23.04 - 43.17 - ? = 303",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 13,
+   "question": 2,
+   "text": "48.2 × 2.5 × 2.2 + ? = 270",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 13,
+   "question": 3,
+   "text": "1 + 2 = 3 + ?",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "option '' is blank or not a plain number"
+  },
+  {
+   "quiz": 13,
+   "question": 4,
+   "text": "- = 20",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 13,
+   "question": 5,
+   "text": "128.43 + 30.21 + ? = 173",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 13,
+   "question": 6,
+   "text": "1817 - 23 + 26 - 1385 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 13,
+   "question": 7,
+   "text": "? - √ = 6 × √",
+   "key": "E",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 13,
+   "question": 8,
+   "text": "456 ÷ 6 × 598 ÷ 23 - ? = 123",
+   "key": "E",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 13,
+   "question": 9,
+   "text": "32% of 825 + 25% of 1440 = 1080 - ?",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 13,
+   "question": 10,
+   "text": "+ = 112 - ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 14,
+   "question": 1,
+   "text": "23 × 5.2 + 24 × 1.2 - 32 × 4.7 - 35 × 1.02 + 97 × 4 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 14,
+   "question": 2,
+   "text": "? % of (152 ÷ 19 × 45) = 126",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 14,
+   "question": 3,
+   "text": "50.4 + 154.4 + 280.884 + 1692.4 - 1368.6 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 14,
+   "question": 4,
+   "text": "(12121 ÷ 100) + (42424 ÷ 50) = ?",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 14,
+   "question": 5,
+   "text": "of of of 654 = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 14,
+   "question": 6,
+   "text": "145% of 342 - 684% of 22.5 = ?",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 14,
+   "question": 7,
+   "text": "√ × √ - (19)2 + 2480 = ? × 5",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 14,
+   "question": 8,
+   "text": "(455.678 + 246.895 - 111.87) = ?1/3 + 500.703",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 14,
+   "question": 9,
+   "text": "√ × √ × 3.7 × 14 ÷ 222 ÷ 168 = ?5 ÷ 648",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 14,
+   "question": 10,
+   "text": "(7770 ÷ 70) + (1500 ÷ 25) + (1008 ÷ 28) + 2152 = ?",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 15,
+   "question": 1,
+   "text": "(474552)1/3 - (6084)1/2 + 68 - 7.8 = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 15,
+   "question": 2,
+   "text": "27 + 23 + 28 - 17 + 0.85 - 0.37 = ?",
+   "key": "A",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 15,
+   "question": 3,
+   "text": "√ + √ + √ + √ - √ = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '+')"
+  },
+  {
+   "quiz": 15,
+   "question": 4,
+   "text": "(561441)1/3 = 9 × √ + √ - 16 = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 15,
+   "question": 5,
+   "text": "164.2 × 2562.1 × 142 × 1963.2 = ?",
+   "key": "A",
+   "status": "BAD_OPTIONS",
+   "reason": "option '(224)8.4' is blank or not a plain number"
+  },
+  {
+   "quiz": 15,
+   "question": 6,
+   "text": "5 + 3 - 6 = ?",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 15,
+   "question": 7,
+   "text": "28.57% of 3780 = √ × ? × √ ÷ 104",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 15,
+   "question": 8,
+   "text": "(569.72 + 113.68 - 183.4) × √ = ?2 - 24",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 15,
+   "question": 9,
+   "text": "6.3 × 9.8 ÷ √ × 0.15 + 1.331 = ?3 + 0.6615",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 15,
+   "question": 10,
+   "text": "22.5% of 754 - 17.5% of 884 = ? + √ - 19.65",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 16,
+   "question": 1,
+   "text": "√ ÷ 43 × 176 = [?3 + (457.68 - 393.68)] ÷ 4",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 16,
+   "question": 2,
+   "text": "(287.65 - 111.35 + 158.30) = ?1/3 × 1673",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 16,
+   "question": 3,
+   "text": "221 ÷ 23.6 × 94.4 ÷ 169 ÷ 17 = ? ÷ 91",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 16,
+   "question": 4,
+   "text": "(3.4)2 - (1.2)2 = ?1/2 - 2.88",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 16,
+   "question": 5,
+   "text": "72.9 × 6.561 × √ ÷ 81 = 93+? × √",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 16,
+   "question": 6,
+   "text": "146% 950 - 46% of 1850 = 8 × ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 16,
+   "question": 7,
+   "text": "(0.2)3 × 200 ÷ 2000 of (0.2)2 is",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 16,
+   "question": 8,
+   "text": "153 + 172 - 123 + 1960 is equal to",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 16,
+   "question": 9,
+   "text": "+ ÷ = ?",
+   "key": "E",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '÷')"
+  },
+  {
+   "quiz": 16,
+   "question": 10,
+   "text": "107.5 × 104.5 ÷ 102 = 10?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 17,
+   "question": 1,
+   "text": "85% of 620 + x% of 480 = 70% of 890",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 17,
+   "question": 2,
+   "text": "(624 + 146) × 2 ÷ 77 = ? ÷ (- 2)",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 17,
+   "question": 3,
+   "text": "(5.25 × 6 × 4) ÷ 7 - 2 = ?2",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 17,
+   "question": 4,
+   "text": "(6√ × 2√ × 4√ ) ÷ 12 = ? + 123 - 59",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 17,
+   "question": 5,
+   "text": "[(√ + √ ) - (29 + 5)] ÷ 4 = ?1/2",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 17,
+   "question": 6,
+   "text": "0.8 × 8 ÷ 0.88 × √ = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 17,
+   "question": 7,
+   "text": "(4326 + 3189 - 5155) = ? × 59",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 17,
+   "question": 8,
+   "text": "636 × 5 ÷ 6 + 221 ÷ 17 × 13 = ? + 210",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 17,
+   "question": 9,
+   "text": "of of of 4820 = ? × 3",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 17,
+   "question": 10,
+   "text": "412 × 28 ÷ 163 = 16?+3 × 24",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 18,
+   "question": 1,
+   "text": "(845% of 955) × 5. 96 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "unreadable character near '. 96'"
+  },
+  {
+   "quiz": 18,
+   "question": 2,
+   "text": "(780.85 + 59.98) ÷ 29.02 = ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 18,
+   "question": 3,
+   "text": "35% of ? × = 3984.75",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 18,
+   "question": 4,
+   "text": "8 × 5 × 9 = ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 18,
+   "question": 5,
+   "text": "11.922 + 16.012 = ?2 × 3.852",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 18,
+   "question": 6,
+   "text": "166.5 × 1612.25 = 1621-?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 18,
+   "question": 7,
+   "text": "8765 - 3246 + 6783 = 4516 + ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 18,
+   "question": 8,
+   "text": "8 + 9 + 12 - 8 = ?",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 18,
+   "question": 9,
+   "text": "of 1638 of of = ?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 18,
+   "question": 10,
+   "text": "√ + √ - √ = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '+')"
+  },
+  {
+   "quiz": 19,
+   "question": 1,
+   "text": "468 ÷ 39 × 20 + 226 = ? + 420",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 19,
+   "question": 2,
+   "text": "(2 √ - 31) + ( √ - 6)2 = (?)2",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 19,
+   "question": 3,
+   "text": "2 + 5 - 4 = ? + 1",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 19,
+   "question": 4,
+   "text": "42% of 580 + of 2030 - 37% of 670 = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 19,
+   "question": 5,
+   "text": "6668 + 446.8 + 2468.28 - 8326.68 + 2248.6 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 19,
+   "question": 6,
+   "text": "√ √ √ = (?)2 - 21",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 19,
+   "question": 7,
+   "text": "of 5033 + 86% of 750 = (?)2 + 401",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 19,
+   "question": 8,
+   "text": "(4 × 4)3 ÷ (512 ÷ 8)4 × (32 × 8)4 = (2 + 2)?+4",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 19,
+   "question": 9,
+   "text": "88% of 1555 = 38% of 1518 + ?",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 19,
+   "question": 10,
+   "text": "(16.4)2 + (17.2)2 - (13.8)2 = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 20,
+   "question": 1,
+   "text": "11.11% of 27.27% of 8.33% of 3564",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 20,
+   "question": 2,
+   "text": "(6160 + 12320) ÷ ? = 660",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "option 'None of the above' is blank or not a plain number"
+  },
+  {
+   "quiz": 20,
+   "question": 3,
+   "text": "+ + + = ?",
+   "key": "E",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 20,
+   "question": 4,
+   "text": "( ) = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected ('op', ')')"
+  },
+  {
+   "quiz": 20,
+   "question": 5,
+   "text": "( × × ) + ( × × ) = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '×')"
+  },
+  {
+   "quiz": 20,
+   "question": 6,
+   "text": "? × (1047 + 137.5) = 46195.5",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 20,
+   "question": 7,
+   "text": "36.06 × 35 - ? + 624.9 = 2323",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 20,
+   "question": 8,
+   "text": "√ × √ + (36)2 = ?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 20,
+   "question": 9,
+   "text": "272.5 × ((243)3)? = 322.5",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 20,
+   "question": 10,
+   "text": "of of of 560 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 21,
+   "question": 1,
+   "text": "58% of 850 + ? = 1224 - 603",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 21,
+   "question": 2,
+   "text": "5163 - 4018 + 3209 - 3146 + 1873 = ?",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 21,
+   "question": 3,
+   "text": "8743 + 486 ÷ 18 × 148 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 21,
+   "question": 4,
+   "text": "[(135)2 ÷ 15 × 39] ÷ ? = 60 × 52",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 21,
+   "question": 5,
+   "text": "63 × 34 ÷ 93 + ?2 = 72",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 21,
+   "question": 6,
+   "text": "124 √ + 876 = of 840 + 742",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 21,
+   "question": 7,
+   "text": "70% of 1680 + ?% of 1750 = 55% of 2820 - 886",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 21,
+   "question": 8,
+   "text": "326 × 14 - 12 × 88 + (49)2 = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 21,
+   "question": 9,
+   "text": "6 of 266 + 630 = 7985 - ? - 5200",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 21,
+   "question": 10,
+   "text": "?% of (140 × 8 - 680) = 330",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 22,
+   "question": 1,
+   "text": "(2)-3.7 ÷ (32)-1 × = (2)?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 22,
+   "question": 2,
+   "text": "(16807)-2 × (49)7 × = (7)?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 22,
+   "question": 3,
+   "text": "24.8% of 1550 - 13.2% of 1125 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 22,
+   "question": 4,
+   "text": "√ + √ = ?",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '+')"
+  },
+  {
+   "quiz": 22,
+   "question": 5,
+   "text": "√ √ = ?",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 22,
+   "question": 6,
+   "text": "16.4 × 7.75 × 12 = ?",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 22,
+   "question": 7,
+   "text": "319.24 - 106.89 + 431.65 - 240.33 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 22,
+   "question": 8,
+   "text": "48% of 1735 + 36% of 1545 = ?",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 22,
+   "question": 9,
+   "text": "172 + 232 = √",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 22,
+   "question": 10,
+   "text": "of of of 7623 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 23,
+   "question": 1,
+   "text": "7854 × 549 ÷ 3 - 1425 × 321 + √961 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 23,
+   "question": 2,
+   "text": "20% of 1 of 3 of 5 of 9 of 1521520 = ? 11 13 19 28",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 23,
+   "question": 3,
+   "text": "(10)2 + (7)3 + (243)1/5 = ?2 + 5",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 23,
+   "question": 4,
+   "text": "√? - 72 × √784 = 895 - √1296 × 24 9 × 2",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 23,
+   "question": 5,
+   "text": "(0.0625)4 × 0.125 ÷ (0.5)9 = (0.5)? ÷ 0.25",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 23,
+   "question": 6,
+   "text": "366.633 + 636.36 - 666.333 - 33.366 + 3336.33 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 23,
+   "question": 7,
+   "text": "8200 × 67 - 32518 = ? × 90 + 12",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 23,
+   "question": 8,
+   "text": "12.5 × 151.2 + 752.64 - 1858.64 = ?2",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 23,
+   "question": 9,
+   "text": "(? × 21% of 210) ÷ (17% of 170) = 3087 ÷ ?",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "option '3√2' is blank or not a plain number"
+  },
+  {
+   "quiz": 23,
+   "question": 10,
+   "text": "(729 × 81) = ? (216 × 16 × 81) A. 93/47 B. 73/47 95/67 D. 82/47 E. 93/65",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 24,
+   "question": 1,
+   "text": "534.256 - 786.56 + 678.45 + 45.325 - 23.123 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 24,
+   "question": 2,
+   "text": "(0.09)7 × 0.000729 × 0.0081 = (0.3)? (0.09)5",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 24,
+   "question": 3,
+   "text": "210 × 64 × 25 = 2? × 64 256",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 24,
+   "question": 4,
+   "text": "133.344 + 1443.333 + 1444.333 + 1333.441 + 111.343 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 24,
+   "question": 5,
+   "text": "(47)2 + 6 × (26)2 - 805 × 6 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 24,
+   "question": 6,
+   "text": "4 1 + 6 1 - 7 3 + 9 7 = ? 5 4 5 4",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 24,
+   "question": 7,
+   "text": "√576 × √225× 36% of 1000 = ? + 540",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 24,
+   "question": 8,
+   "text": "25% of 40% of 325 + 123 × 4 = ?",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 24,
+   "question": 9,
+   "text": "155.54 + 1444.55 + 441.54 + 5155.454 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 24,
+   "question": 10,
+   "text": "16 × 24 + 23 - ? = 28% of 200",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 25,
+   "question": 1,
+   "text": "25% of 720 + 16% of 425 - 22% of 560 = ?",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 25,
+   "question": 2,
+   "text": "√1296 × √6.25 + 56% of 350 = ? + 235",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 25,
+   "question": 3,
+   "text": "2 + 3 - 5 + 6 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives C; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 25,
+   "question": 4,
+   "text": "× 10200 + 35% of 750 = ? - 34% of 5500",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 25,
+   "question": 5,
+   "text": "√2809 × √10404 + √5041 × √4489 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 25,
+   "question": 6,
+   "text": "1024 ÷ 32 ÷ 4 × 68 × 7 + 550 = ?",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 25,
+   "question": 7,
+   "text": "666.5 - 555.6 + 656.56 - 566.65 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 25,
+   "question": 8,
+   "text": "15% of of of 75000 = ?",
+   "key": "A",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '×')"
+  },
+  {
+   "quiz": 25,
+   "question": 9,
+   "text": "41.3 × 3.6 - 4.8 × 13.8 = ?",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 25,
+   "question": 10,
+   "text": "× + - = ?",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '×')"
+  },
+  {
+   "quiz": 26,
+   "question": 1,
+   "text": "(0.0256) ÷ 0.064 × (0.4)8 = (0.4)? × 0.16",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 26,
+   "question": 2,
+   "text": "45% of 89% of 5000 + 98% of 3456 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 26,
+   "question": 3,
+   "text": "6 - 4 + 7 + 5 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 26,
+   "question": 4,
+   "text": "998.89 + 99.89 + 889.98 + 88.99 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 26,
+   "question": 5,
+   "text": "√676 × √10201 + 49% of 700 - 54 = ?",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 26,
+   "question": 6,
+   "text": "× × × 1440 = ? - × 123",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 26,
+   "question": 7,
+   "text": "65% of 78% of 450 + 22% of 650 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 26,
+   "question": 8,
+   "text": "6 - 5 + 3 + 4 = ?",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 26,
+   "question": 9,
+   "text": "133.223 + 222.32 + 32.2 + 111.02 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 26,
+   "question": 10,
+   "text": "(0.25)4 × × (0.5)8 = (0.5)? × 0.25",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 27,
+   "question": 1,
+   "text": "5 + 3 - 7 + 4 = ?",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 27,
+   "question": 2,
+   "text": "√5041 % of √3364 + 57 = ? + 678",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 27,
+   "question": 3,
+   "text": "25% of 30% of 850 + 5 × 76 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 27,
+   "question": 4,
+   "text": "× 38 × = 3? × 243",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 27,
+   "question": 5,
+   "text": "× 750 - ? = × 540",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 27,
+   "question": 6,
+   "text": "152 × × 112 = ? + 232",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 27,
+   "question": 7,
+   "text": "(0.16)2 ÷ (0.064) x (0.4)8 = (0.4)?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 27,
+   "question": 8,
+   "text": "456.879 + 324.54 - 567.43 - 32.45 + 68.56 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 27,
+   "question": 9,
+   "text": "9696 ÷ 16 × √25 + 23 ÷ 897 × 117 = ?",
+   "key": "A",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 27,
+   "question": 10,
+   "text": "56% of 590 + ? = 605 + 12 × 1.7",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 28,
+   "question": 1,
+   "text": "271.5 × [(3)3]? = 275",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 28,
+   "question": 2,
+   "text": "× × = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '×')"
+  },
+  {
+   "quiz": 28,
+   "question": 3,
+   "text": "(63)2 + 0.75 × 444 + 0.8 × 185 = ? × 89",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 28,
+   "question": 4,
+   "text": "980 - 534 × 5 + 1005 × 3 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 28,
+   "question": 5,
+   "text": "432.45 + 678.19 - 412.87 = ?",
+   "key": "D",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 28,
+   "question": 6,
+   "text": "30% of 550 - 120% of 6000 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 28,
+   "question": 7,
+   "text": "× × 2000 = ? + 20",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 28,
+   "question": 8,
+   "text": "14 × √1024 + 5 × √961 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 28,
+   "question": 9,
+   "text": "(27)2 × = 3? × 3",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 28,
+   "question": 10,
+   "text": "4 - 5 + 6 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 29,
+   "question": 1,
+   "text": "5567.86 - 234.56 + 624.19 - 54 = ? - 67.987",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 29,
+   "question": 2,
+   "text": "35% of 150 - 75% of 250 = ? - 76",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 29,
+   "question": 3,
+   "text": "× × 12600 - 30% of 360 + 654= ?",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '×')"
+  },
+  {
+   "quiz": 29,
+   "question": 4,
+   "text": "5 + 9 - 6 + 4 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 29,
+   "question": 5,
+   "text": "(256)2 × 64 ÷ 165 × 4096 = 4? × 256",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 29,
+   "question": 6,
+   "text": "345 ÷ 25 × 1225 + 45 × 12 - 36 × 7 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 29,
+   "question": 7,
+   "text": "235.355 + 533.232 - 555.33 + 333.222 = ? - 55.333",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 29,
+   "question": 8,
+   "text": "255% of 650 + × 356 = ? + × 910",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 29,
+   "question": 9,
+   "text": "",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "empty question text (the expression was an image)"
+  },
+  {
+   "quiz": 29,
+   "question": 10,
+   "text": "of of of 2526 = ?",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 30,
+   "question": 1,
+   "text": "48% of 2500 - - 15% of = ?",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 30,
+   "question": 2,
+   "text": "( ) + ( ) = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected ('op', ')')"
+  },
+  {
+   "quiz": 30,
+   "question": 3,
+   "text": "= ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 30,
+   "question": 4,
+   "text": "36% of 450 + √3136 - 18 × 13 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 30,
+   "question": 5,
+   "text": "(120% of 200 × 2.4) + - 23 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 30,
+   "question": 6,
+   "text": "- 4 + × 1092 = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '×')"
+  },
+  {
+   "quiz": 30,
+   "question": 7,
+   "text": "5 + 7 - 4 - 2 = ?",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "option '6 5/12' is blank or not a plain number"
+  },
+  {
+   "quiz": 30,
+   "question": 8,
+   "text": "366.633 + 636.36 - 666.333 - 33.366 + 3336.33 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 30,
+   "question": 9,
+   "text": "8200 × 67 - 32518 = ? × 90 + 12",
+   "key": "A",
+   "computed": "A",
+   "status": "DUPLICATE",
+   "reason": "same question as quiz 23 question 7"
+  },
+  {
+   "quiz": 30,
+   "question": 10,
+   "text": "12.5 × 151.2 + 752.64 - 1858.64 = ?2",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 31,
+   "question": 1,
+   "text": "784 ÷ 14 + 598 ÷ 13 + ? = 99% of 2500",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 31,
+   "question": 2,
+   "text": "221 ÷13 × √576 + 102 = ?",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 31,
+   "question": 3,
+   "text": "152 + 122 = 112 + ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 31,
+   "question": 4,
+   "text": "6 × 6 × 6 × 6 × 6 + 6 × 6 × 6 × 6 = 81 × 3.5 × ?",
+   "key": "C",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 31,
+   "question": 5,
+   "text": "18 of 18 + 19 of 28 = 5.5 × ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 31,
+   "question": 6,
+   "text": "3-2 + 22 % of 364 = ?",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 31,
+   "question": 7,
+   "text": "√ × ( - ) + 82 × 4 = ? × 26",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 31,
+   "question": 8,
+   "text": "3 × 4 × = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 31,
+   "question": 9,
+   "text": "152 + 172 - ? = 212",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 31,
+   "question": 10,
+   "text": "0.5 × 8.4 + 3.5 × 12.2 + 0.25 × 102 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 34,
+   "question": 1,
+   "text": "(212 - 39) × (36 - 93) + 112 = ?",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 34,
+   "question": 2,
+   "text": "(37.5 × 22 × 48) ÷ 24 - ? = (11)3",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 34,
+   "question": 3,
+   "text": "(47 + 47 + 47 + 47 + 47 + 47) × 5 × (47 + 47) × 6 ÷ (47 × 2) = 47 × ?",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "option '47 × 180' is blank or not a plain number"
+  },
+  {
+   "quiz": 34,
+   "question": 4,
+   "text": "2√3 × 3√8 × 2√27 × 2√2 = 24 × ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 34,
+   "question": 5,
+   "text": "172 + 192 + ? = 212 + 152",
+   "key": "E",
+   "status": "DISAGREE",
+   "reason": "PDF key E but our calculation gives B; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 34,
+   "question": 6,
+   "text": "= ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 34,
+   "question": 7,
+   "text": "(5175 ÷ 23)1/2 + (72 × 2)1/2 = (?)1/2",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 34,
+   "question": 8,
+   "text": "641.23 - 228.48 - 124.21 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 34,
+   "question": 9,
+   "text": "√ √ × 202 - 31/2 × 22 × 102 = (?) × 10",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 34,
+   "question": 10,
+   "text": "√ √ = 33/2",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 35,
+   "question": 1,
+   "text": "61% of 550 - ?% of 250 = 35",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 35,
+   "question": 2,
+   "text": "5 × ? = 735 ÷ 3",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 35,
+   "question": 3,
+   "text": "",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "empty question text (the expression was an image)"
+  },
+  {
+   "quiz": 35,
+   "question": 4,
+   "text": "19% of 250 + ? = 27",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 35,
+   "question": 5,
+   "text": "(6 × 6 × 6 × 6 × 6)5 × (9 × 9 × 9)5 ÷ (18 × 18 × 18)3 = 216 × 3?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 35,
+   "question": 6,
+   "text": "50% of ( ) = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected ('op', ')')"
+  },
+  {
+   "quiz": 35,
+   "question": 7,
+   "text": "√ ÷ 45 × 720 + ? = 302",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 35,
+   "question": 8,
+   "text": "? = 152",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 35,
+   "question": 9,
+   "text": "600% of √ × 12 ÷ 3- 1 = ?2",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 35,
+   "question": 10,
+   "text": "16 % of (2.8 × 6 + 5.4 × 9) = 10-1 × ?",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 36,
+   "question": 1,
+   "text": "1 × 60 ÷ 2 + 17 = ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 36,
+   "question": 2,
+   "text": "× 425 ÷ 5-2 = 4 × 156.25",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 36,
+   "question": 3,
+   "text": "? % of 480 + 28.5% of 200 = 32 × 25",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 36,
+   "question": 4,
+   "text": "% of 105 + % of x2 = 488",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 36,
+   "question": 5,
+   "text": "12 of 321 - ? = 18.5 × 14",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 36,
+   "question": 6,
+   "text": "3 × 59 × 16 + 3 = ?",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 36,
+   "question": 7,
+   "text": "√ √ - (87)2 = (?)2 + (48)2 - 5",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 36,
+   "question": 8,
+   "text": "(6963 ÷ 33) + (745 ÷ 35) + (9580 ÷ 45) =?",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 36,
+   "question": 9,
+   "text": "*(9√5 + 4√5) × (11√5 + 19√5)+ - (43)2 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 36,
+   "question": 10,
+   "text": "14 × √729 - 23% of 1750 = ?1/2 - 23.5",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 37,
+   "question": 1,
+   "text": "5 𝟏𝟏 𝟏𝟑 × ? 𝟕 𝟏𝟐 × 2 𝟏𝟑 𝟏𝟗 + 18% of 552 = 218.36",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 37,
+   "question": 2,
+   "text": "84.2 × 646.4 × 882.25 × 11? = 8819.25",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 37,
+   "question": 3,
+   "text": "𝟏 𝟐 of 52846 + 35% of ? - 85% of 42320 = 2547",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 37,
+   "question": 4,
+   "text": "(𝟒𝟑 × 𝟏𝟒 + 𝟒𝟎𝟔𝟎) 𝟏𝟐 = 7021 ÷ ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 37,
+   "question": 5,
+   "text": "(𝟒 𝟑 𝟒 × 𝟏𝟎 𝟐 𝟑 × 𝟒 𝟑 𝟖) ÷ ? 𝟏𝟕 𝟐𝟏 = 9",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 37,
+   "question": 6,
+   "text": "(15.01% of 52.02)% of 449.99 + 42.01 ÷ 2.99 × 12.03 = ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 37,
+   "question": 7,
+   "text": "(3.99)3 + (12.01)3 + ? = 502.11 × 3.99",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 37,
+   "question": 8,
+   "text": "4 𝟑 𝟒 × 5 𝟏𝟏 𝟏𝟕 × 25 𝟏 𝟐 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 37,
+   "question": 9,
+   "text": "12 𝟑 𝟓 × 6 𝟑 𝟕 × (?% of 125) = 34 × 25",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 37,
+   "question": 10,
+   "text": "𝟏 𝟑 of 4569 + 12% of ? + 21% of ? - 532 = 199",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 38,
+   "question": 1,
+   "text": "38% of 430 + 54% of 890 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 38,
+   "question": 2,
+   "text": "1/5 of 645 + 7 of 33 - 3 of ? = 10% of (- 1090)",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 38,
+   "question": 3,
+   "text": "126.543 + 12.3421 + 28.4528 + 19.1919 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 38,
+   "question": 4,
+   "text": "(2- 3 + 12.5% of 624) = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 38,
+   "question": 5,
+   "text": "1665 ÷ 37 × of 22 + 102 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 38,
+   "question": 6,
+   "text": "52% of 328 + 48% of 468 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 38,
+   "question": 7,
+   "text": "(33 + 6.25% of ?) = 82 × 32",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 38,
+   "question": 8,
+   "text": "3 of 580 + 7 of 147 + 3 of 603 = ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 38,
+   "question": 9,
+   "text": "248.44 - 43.28 + 54.86 - 12.24 + 120.22 = 25% of ?",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 38,
+   "question": 10,
+   "text": "+ 1 of 32 = 10% of 100 × ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 39,
+   "question": 1,
+   "text": "3 ÷ 33.33% of 162 × 2 = ?",
+   "key": "E",
+   "status": "BAD_OPTIONS",
+   "reason": "option '' is blank or not a plain number"
+  },
+  {
+   "quiz": 39,
+   "question": 2,
+   "text": "49% of 520 + 51% of 480 = ?",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 39,
+   "question": 3,
+   "text": "3.4 × 1.8 ÷ 1.53 + 13.4 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 39,
+   "question": 4,
+   "text": "17 of 171 - 4 of 64 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 39,
+   "question": 5,
+   "text": "52.24 + 62.18 + 84.48 + 12.21 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 39,
+   "question": 6,
+   "text": "(1.6)2 ÷ (0.8)2 = [(2.4)2 ÷ (0.4)2] - ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 39,
+   "question": 7,
+   "text": "8√ × 83 ÷ 8-5/2 = 2?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 39,
+   "question": 8,
+   "text": "(0.6)2 × 5 = ? - 348 ÷ 24",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 39,
+   "question": 9,
+   "text": "?% of (584.2 - 244.2) = (9)2 + 21",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 39,
+   "question": 10,
+   "text": "√ = (82 × 52) ÷ (200√ )",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 41,
+   "question": 1,
+   "text": "689 × 6156 ÷ 18% of 684 = 28 × 250 ÷ 8 + ? + 4300",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 41,
+   "question": 2,
+   "text": "√ + √ + 12 - 43 = 137",
+   "key": "A",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 41,
+   "question": 3,
+   "text": "189820 - 22624 + 35 × ? - 372 × 28 = 194440",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 41,
+   "question": 4,
+   "text": "39 - 47 + 23 - 2 = ?",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 41,
+   "question": 5,
+   "text": "44% of 1950 + 82% of 250 + 62% of ? = 7883",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 41,
+   "question": 6,
+   "text": "42.8 × 13.5 × 16.2 × ? = 2340.09",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 41,
+   "question": 7,
+   "text": "(3.7)-3 × (13.69)-2 × ÷ (13.69)-5 = (3.7)?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 41,
+   "question": 8,
+   "text": "of 2295 ÷ 9 - ? = √",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 41,
+   "question": 9,
+   "text": "486 ÷ ? × 7392 ÷ 66 = 1008",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 41,
+   "question": 10,
+   "text": "17.8% of ? = 427.2 × 8.4% of 135",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 42,
+   "question": 1,
+   "text": "× × ? = 25 × 103 × 1.54",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 42,
+   "question": 2,
+   "text": "(13456 - 712) ÷ 272 = ? ÷ 3 ÷ 3 ÷ 3 ÷ 2",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 42,
+   "question": 3,
+   "text": "0.16 × 55 × 180 + ?2 = 123",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 42,
+   "question": 4,
+   "text": "1.25 × 844 + 0.5 × 432 + ? = 2500",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 42,
+   "question": 5,
+   "text": "75% of 122 + ? = 40% of 600",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 42,
+   "question": 6,
+   "text": "(√?)6 + (√30)4 = 2628",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 42,
+   "question": 7,
+   "text": "272/3 + 2161/3 + ? = 1252/3",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 42,
+   "question": 8,
+   "text": "7 of 15 + 9 of 30 = 0.5 × ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 42,
+   "question": 9,
+   "text": "29 × ? = 1856 ÷ 4 ÷ 2",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 42,
+   "question": 10,
+   "text": "6587 - 2134 + 3125 = ? × 53 × 64 ÷ 23",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 43,
+   "question": 1,
+   "text": "5% of 52 × 122 - 140 = 2 × ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 43,
+   "question": 2,
+   "text": "2 % of 5200 + 1 % of 5100 = ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 43,
+   "question": 3,
+   "text": "33 × ? ÷ 3 = 1.5 % of (25 × 55 × 363)",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 43,
+   "question": 4,
+   "text": "?% of (15360 ÷ 4) = 211- 29",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 43,
+   "question": 5,
+   "text": "325 ÷ 13 × √784 = 10% of ?",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 43,
+   "question": 6,
+   "text": "∛(?) × 140 + 260 = 0.42 × 5125",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 43,
+   "question": 7,
+   "text": "√ 3136 × 7- 2 ÷ 5- 5 × 14 = ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 43,
+   "question": 8,
+   "text": "25% of 624 + ? = 729 - 512",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 43,
+   "question": 9,
+   "text": "8 ÷ × 167 = (72 - 1) × ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 43,
+   "question": 10,
+   "text": "× ÷ + - ? = 1",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "option '' is blank or not a plain number"
+  },
+  {
+   "quiz": 44,
+   "question": 1,
+   "text": "5 × √? = 735 ÷ 3",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 44,
+   "question": 2,
+   "text": "20% of 27 + 40% of 64 - ? = 0",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 44,
+   "question": 3,
+   "text": "(4.5 × 4.5 × 4.5 × 4.5) ÷ 225 ÷ 25 + 33 = ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 44,
+   "question": 4,
+   "text": "3 × × 82 × 60 = 24 × ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 44,
+   "question": 5,
+   "text": "(23 + 72) ÷ 2 × 3 = ?",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 44,
+   "question": 6,
+   "text": "17 + 21 = 33 % of ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 44,
+   "question": 7,
+   "text": "= 4",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 44,
+   "question": 8,
+   "text": "√1024 × 40 + 202 + 0.5% of 9600 + 469 = ?3",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 44,
+   "question": 9,
+   "text": "4 % of 6500 + 3 % 3500 = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('num', Fraction(3500, 1))"
+  },
+  {
+   "quiz": 44,
+   "question": 10,
+   "text": "44 + 54 + 10% of 8000 = ?2",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 45,
+   "question": 1,
+   "text": "13 % of 3300 + 25% of 184 = 40% of ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 45,
+   "question": 2,
+   "text": "11 of 117 + 13 of 115 = ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 45,
+   "question": 3,
+   "text": "+ = ?",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 45,
+   "question": 4,
+   "text": "8125 ÷ 13 ÷ 2 × 102 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 45,
+   "question": 5,
+   "text": "(2-3 + 12.5% of 624) × 44 = 53 × ?",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "PDF key C but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 45,
+   "question": 6,
+   "text": "42.32 + 423.4 + 56.28 - 122.2 = ?",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 45,
+   "question": 7,
+   "text": "45% of 480 + 1 of 2160 + 2 of 150 = ?",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 45,
+   "question": 8,
+   "text": "4 + 6 - 7 =",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 45,
+   "question": 9,
+   "text": "132 + 53 - 44 = 10% of ?",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 45,
+   "question": 10,
+   "text": "7292 ÷ 63 × 278 = 27?+6 ÷ 216",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 46,
+   "question": 1,
+   "text": "(4698 - 3625 - 857) = ?3 - 42 - √",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 46,
+   "question": 2,
+   "text": "= × × × 676 × 143",
+   "key": "E",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 46,
+   "question": 3,
+   "text": "√ × (985.35 - 969.35) = ?1/2 + 305",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 46,
+   "question": 4,
+   "text": "6992 ÷ 19 - ?% of 652 = - 4196",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 46,
+   "question": 5,
+   "text": "* , ( )-+ = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 46,
+   "question": 6,
+   "text": "(4863 - √2601) × 1.5 = ?",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 46,
+   "question": 7,
+   "text": "38% of 295 + 62% of 445 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 46,
+   "question": 8,
+   "text": "1 - 1 + 1 = ?",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 46,
+   "question": 9,
+   "text": "150% of 300 + ?% of 500 = 800",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 46,
+   "question": 10,
+   "text": "6318 ÷ √ = √ × 9",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 47,
+   "question": 1,
+   "text": "[(288)2 ÷ 24 × 36] ÷ 18 = √?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 47,
+   "question": 2,
+   "text": "1454 + 2365 + 9710 + 3020 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 47,
+   "question": 3,
+   "text": "67.5% of 960 + ?% of 640 = 728",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 47,
+   "question": 4,
+   "text": "19 - [ - ] = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', ')')"
+  },
+  {
+   "quiz": 47,
+   "question": 5,
+   "text": "(√8 × √8)1/2 + 91/2 = ?3 + √8 - 340",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 47,
+   "question": 6,
+   "text": "2 % of 1500 + {320 of 1450 + √ ÷ (68 - 72)} = 0",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "not an expression with = ? and not an equation with an unknown"
+  },
+  {
+   "quiz": 47,
+   "question": 7,
+   "text": "7428 × × × ? = 619",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 47,
+   "question": 8,
+   "text": "(4 + 3√2)2 - (3 + 2√2)2 = ?",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 47,
+   "question": 9,
+   "text": "632323 + 454545 - 757575 - 157866 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 47,
+   "question": 10,
+   "text": "3 × 59 × 16 + 3 = ?",
+   "key": "D",
+   "status": "DISAGREE",
+   "reason": "PDF key D but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 48,
+   "question": 1,
+   "text": "23 × 17 + 427 - 52% of 1450 = ?2",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 48,
+   "question": 2,
+   "text": "62% of 16850 + 32% of 7345 = 52% of 645 + ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 48,
+   "question": 3,
+   "text": "of 3245 + 32% of 6250 - (?)2 = 103",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 48,
+   "question": 4,
+   "text": "23568 + 33852 + 17183 - 52549 = ?",
+   "key": "E",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 48,
+   "question": 5,
+   "text": "( ) of 3267 + 72% of 6350 = (?)2 - 580",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 48,
+   "question": 6,
+   "text": "√ + √ = ?",
+   "key": "D",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '+')"
+  },
+  {
+   "quiz": 48,
+   "question": 7,
+   "text": "(0.9)2 × 15 + 2.64 = ? - 532 ÷ 28",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 48,
+   "question": 8,
+   "text": "4 + 2 - 6 = ?",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 48,
+   "question": 9,
+   "text": "4 ÷ 2 - 1.25 - 3 + 3.5 = ?",
+   "key": "C",
+   "status": "BAD_OPTIONS",
+   "reason": "option '' is blank or not a plain number"
+  },
+  {
+   "quiz": 48,
+   "question": 10,
+   "text": "? % of (17895.35 - 16764.10) = 102 + 92",
+   "key": "C",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 49,
+   "question": 1,
+   "text": "(√𝟕 - √𝟏𝟎) 𝟐 + (√𝟓 + √𝟏𝟒) 𝟐 = (? )𝟑 - 𝟐𝟖",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 49,
+   "question": 2,
+   "text": "64% of √𝟒𝟎𝟗𝟔𝟎𝟎 ÷1.6 = ? x 2.56",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 49,
+   "question": 3,
+   "text": "38.4% of 1450 + 78.2% of 240 - ?2 = 20% of 77.4",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 49,
+   "question": 4,
+   "text": "(2.89)4 ÷(4913 ÷ 1000)3 x (0.17 x 10)3 = (1.7)?-3",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 49,
+   "question": 5,
+   "text": "√𝟓. 𝟖𝟑𝟐 𝟑 + 35% of 6500 - ?% of 1250 = 222.8",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 49,
+   "question": 6,
+   "text": "13 𝟗 𝟕% of 2835 + 25% of 3248 = 1117 + ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 49,
+   "question": 7,
+   "text": "√𝟑𝟐 + √𝟏𝟑 + √𝟓 + √𝟏𝟔 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 49,
+   "question": 8,
+   "text": "(0.0036)1/2 + (0.0169)1/2 = ? + 0.03",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 49,
+   "question": 9,
+   "text": "25% of √𝟑𝟐𝟖𝟓𝟎𝟗 𝟑 + 75% of √𝟕𝟗𝟓𝟎𝟕 𝟑 = ?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 49,
+   "question": 10,
+   "text": "332 + 342 + 35 + 362 - 392 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 50,
+   "question": 1,
+   "text": "5376 ÷ 24 × 13 - 703 = ?2",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 50,
+   "question": 2,
+   "text": "4 𝟓 𝟕 × 4 𝟐 𝟑 + ? = 35% of 158",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 50,
+   "question": 3,
+   "text": "12473 - 1016 - 10137 + 21477 = ? + 8573",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "option 'None of ttese' is blank or not a plain number"
+  },
+  {
+   "quiz": 50,
+   "question": 4,
+   "text": "(0.4)3 × 400 ÷ 4000 of (0.4)2 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 50,
+   "question": 5,
+   "text": "185% of 500 - 46% of 1650 = 4 × ?",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 50,
+   "question": 6,
+   "text": "165% of 400 + 85% of 240 = ?% of 1080",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 50,
+   "question": 7,
+   "text": "24473 - 12016 - 11037 + 22477 = ? + 9473",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 50,
+   "question": 8,
+   "text": "123 × 8697 ÷ 223 = ?2 + 36",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 50,
+   "question": 9,
+   "text": "13 × ? × 6 = 472 - √625",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 50,
+   "question": 10,
+   "text": "𝟖𝟖𝟐 𝟗 - 7 × 13 + √𝟐𝟏𝟗𝟕 𝟑 = ?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 51,
+   "question": 1,
+   "text": "7 + 9 + 11 - 6 = ?",
+   "key": "B",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 51,
+   "question": 2,
+   "text": "256.5 × 2512.25 = 2521-?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 51,
+   "question": 3,
+   "text": "1332 ÷ 36 × 23 + 287 - 189 = ?",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 51,
+   "question": 4,
+   "text": "0.8% of 2580 + 16% of 685 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 51,
+   "question": 5,
+   "text": "(153 × 1331) ÷ (11 × 17) = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 51,
+   "question": 6,
+   "text": "√ + √ - √ = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '+')"
+  },
+  {
+   "quiz": 51,
+   "question": 7,
+   "text": "9845 - 3746 + 5483 = 7416 + ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 51,
+   "question": 8,
+   "text": "of 1456 of of = ?",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 51,
+   "question": 9,
+   "text": "4.8 × 4.5 × 3.6 × 50 = ?",
+   "key": "C",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 51,
+   "question": 10,
+   "text": "133 + 212 - 193 + 5360 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 52,
+   "question": 1,
+   "text": "? % of (19154 - 15644) = 92 + 62",
+   "key": "C",
+   "status": "BAD_OPTIONS",
+   "reason": "option '' is blank or not a plain number"
+  },
+  {
+   "quiz": 52,
+   "question": 2,
+   "text": "4 + 2 - 5 = ?",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "two options have the same value"
+  },
+  {
+   "quiz": 52,
+   "question": 3,
+   "text": "√ + √ = ?",
+   "key": "C",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '+')"
+  },
+  {
+   "quiz": 52,
+   "question": 4,
+   "text": "( ) of 2529 + 42% of 1450 = (?)2 - 949",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 52,
+   "question": 5,
+   "text": "7878 ÷ 26 × 13 - 333 = ?",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 52,
+   "question": 6,
+   "text": "142 - 5121/3 + 7841/2 = ?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 52,
+   "question": 7,
+   "text": "1496 ÷ 34 = ? + 39",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 52,
+   "question": 8,
+   "text": "(33)2 - (35)2 + (17)2 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 52,
+   "question": 9,
+   "text": "√2116 + √1296 - √1681 = ?",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 52,
+   "question": 10,
+   "text": "(26 × 14 - 7) ÷ 21 = ?",
+   "key": "E",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation does not repeat the question exactly, so the extracted text cannot be trusted (a fraction/exponent may be missing)"
+  },
+  {
+   "quiz": 53,
+   "question": 1,
+   "text": "3 𝟏𝟖 𝟓𝟕 × 48 𝟓𝟒 𝟔𝟑 × 6 𝟏 𝟗 + 2 𝟏 𝟐 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 53,
+   "question": 2,
+   "text": "√3249 × √2116 - (38)2 = (?)2 + (31)2 - 72",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 53,
+   "question": 3,
+   "text": "(6386 ÷ 31) + (825 ÷ 33) + (9720 ÷ 216) = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 53,
+   "question": 4,
+   "text": "(37)2 = ? + [(11√3 + 5√3) × (9√3 + 11√3)]",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 53,
+   "question": 5,
+   "text": "12 𝟐 𝟑 × √324 - 34% of 1450 = ?1/2 - 280",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 53,
+   "question": 6,
+   "text": "30% of ? = 38 + 𝟏𝟒𝟕 𝟑",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 53,
+   "question": 7,
+   "text": "𝟐𝟕𝟐 𝟒 - 18 × 6 + √𝟏𝟑𝟑𝟏 𝟑 = ?",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 53,
+   "question": 8,
+   "text": "1512 ÷ 36 + 44 × 32 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 53,
+   "question": 9,
+   "text": "322 - 93 + 29 = ?2",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 53,
+   "question": 10,
+   "text": "𝟏𝟖 𝟑𝟗𝟔 × 𝟑𝟑 𝟐𝟖𝟖 × ? = 42",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 54,
+   "question": 1,
+   "text": "126 + 392 ÷ 7 - 35 + 142 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 54,
+   "question": 2,
+   "text": "120% of 200 + - 15 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 54,
+   "question": 3,
+   "text": "× √441 - √729 = √?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "PDF key B but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 54,
+   "question": 4,
+   "text": "3 + 7 - 4 = ? + 2",
+   "key": "E",
+   "status": "E_UNPROVEN",
+   "reason": "\"None of these\" is accepted only when the explanation reaches the same value as our calculation"
+  },
+  {
+   "quiz": 54,
+   "question": 5,
+   "text": "1366 + 336 - 666 - 33 + 333 = ?",
+   "key": "A",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 54,
+   "question": 6,
+   "text": "26% of 275 + √1296 - 7.5 × 11 = ?",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 54,
+   "question": 7,
+   "text": "√ √ × 168 = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected ('op', '×')"
+  },
+  {
+   "quiz": 54,
+   "question": 8,
+   "text": "56% of 2400 = ? - 24% of 1800",
+   "key": "B",
+   "status": "UNCONFIRMED",
+   "reason": "the PDF explanation ends at a different value than the chosen option"
+  },
+  {
+   "quiz": 54,
+   "question": 9,
+   "text": "of 348 of of √1225 - 148 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 54,
+   "question": 10,
+   "text": "(11)2 + (7)3 + (243)1/5 = ?",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 55,
+   "question": 1,
+   "text": "√196 × √144 × 20% of 500 = ? + 1256",
+   "key": "A",
+   "status": "BAD_OPTIONS",
+   "reason": "option '15,544' is blank or not a plain number"
+  },
+  {
+   "quiz": 55,
+   "question": 2,
+   "text": "(17)2 + 6 × (13)2 - 212 × 6 = ?",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 55,
+   "question": 3,
+   "text": "235.265 - 483.67 + 956.71 + 33.523 - 17.231 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 55,
+   "question": 4,
+   "text": "12 × 15 + 27 - ? = 28% of 400",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 55,
+   "question": 5,
+   "text": "25% of 680 + 16% of 525 - 22% of 450 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 55,
+   "question": 6,
+   "text": "√784 × √6.25 + 56% of 450 = ? + 186",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 55,
+   "question": 7,
+   "text": "132 × × 44 = ? + 272",
+   "key": "D",
+   "status": "BAD_OPTIONS",
+   "reason": "option '54,855' is blank or not a plain number"
+  },
+  {
+   "quiz": 55,
+   "question": 8,
+   "text": "25% of 30% of 950 + 6 × 73 = ?",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 55,
+   "question": 9,
+   "text": "× 850 - ? = of 640",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "\"of\" with a missing left operand (a fraction is missing)"
+  },
+  {
+   "quiz": 55,
+   "question": 10,
+   "text": "- = ?",
+   "key": "B",
+   "status": "PARSE",
+   "reason": "unexpected end"
+  },
+  {
+   "quiz": 56,
+   "question": 1,
+   "text": "(84 ÷ 7 + 1.6 ÷ ?) = (∛4)3× 5 ÷ 2",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "math-styled characters (fractions/exponents flattened by the PDF)"
+  },
+  {
+   "quiz": 56,
+   "question": 2,
+   "text": "(42 - 0.75% (4 × 3! ÷ 0.06)) = ? + 31",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 56,
+   "question": 3,
+   "text": "13 + ? × (4.5 ÷ 6) × (3 - 1.8) = 31",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 56,
+   "question": 4,
+   "text": "(3.9 ÷ 0.13) × (6.4 - 5.8) = ?",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 56,
+   "question": 5,
+   "text": "(16 ÷ 0.4 × ?) - 36 = 6! ÷ (4 × 3 + 8)",
+   "key": "C",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 56,
+   "question": 6,
+   "text": "? = (6.4 - 3.4) × (52 ÷ 1.3) + 0.8 × 0.75 ÷ 0.02",
+   "key": "E",
+   "computed": "E",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 56,
+   "question": 7,
+   "text": "(73 - ? × 3) = 4 × 3.2 ÷ 0.8 + 33",
+   "key": "A",
+   "computed": "A",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 56,
+   "question": 8,
+   "text": "(0.4 × ? - 6 × 3) = 18 + 4! ÷ 0.6",
+   "key": "B",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 56,
+   "question": 9,
+   "text": "(14 + 212 - 68) = ? (44 + 35)",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 56,
+   "question": 10,
+   "text": "41 × 12 + 17 × 24 - 413 = ?",
+   "key": "E",
+   "status": "BAD_OPTIONS",
+   "reason": "option '487 Join us SBI | RBI | IBPS |RRB | SSC | NIACL | EPFO | UGC NET |LIC | Railways | CLAT | RJS Join us' is blank or not a plain number"
+  },
+  {
+   "quiz": 57,
+   "question": 1,
+   "text": "38% of 500 - 22 = ? × 4",
+   "key": "D",
+   "computed": "D",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 57,
+   "question": 2,
+   "text": "(142 × 4) ÷ 16 + 61 = ?",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 57,
+   "question": 3,
+   "text": "(122 × 15) ÷ 33 = ? + (9 × 7)",
+   "key": "A",
+   "status": "DISAGREE",
+   "reason": "PDF key A but our calculation gives E; the explanation does not back it up (text may be damaged)"
+  },
+  {
+   "quiz": 57,
+   "question": 4,
+   "text": "{(720 ÷ 5) + 112} ÷ 16 = ?",
+   "key": "C",
+   "computed": "C",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 57,
+   "question": 5,
+   "text": "(49 × 7) - 13% of 2500 = ? - 63",
+   "key": "B",
+   "computed": "B",
+   "status": "VERIFIED"
+  },
+  {
+   "quiz": 57,
+   "question": 6,
+   "text": "(92 × 56) ÷ 2 3 = ? × 3 10",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 57,
+   "question": 7,
+   "text": "25% of 240 = ? + 5% of 5 !",
+   "key": "D",
+   "status": "BAD_TEXT",
+   "reason": "contains words or symbols outside plain arithmetic"
+  },
+  {
+   "quiz": 57,
+   "question": 8,
+   "text": "112 + 132 + 82 = ?3 + √121",
+   "key": "A",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  },
+  {
+   "quiz": 57,
+   "question": 9,
+   "text": "4.25 - 8.24 + 11.45 = ? - 4.45",
+   "key": "B",
+   "status": "DISAGREE",
+   "reason": "no option satisfies the question (the text may be damaged)"
+  },
+  {
+   "quiz": 57,
+   "question": 10,
+   "text": "32 5 of 3 14 of 35 6 of ? = 392",
+   "key": "E",
+   "status": "BAD_TEXT",
+   "reason": "digits run together (a fraction or exponent lost its layout)"
+  }
+ ]
+}

@@ -1,0 +1,1369 @@
+{
+ "topic": "Simplification Practice",
+ "quizzesData": [
+  {
+   "quiz_name": "Simplification Quiz 1",
+   "source_file": "Simplification_Quiz_1.pdf",
+   "questions": [
+    {
+     "question": "3640 ÷ 14 × 16 + 340 = ?",
+     "options": {
+      "A": "0.70",
+      "B": "3525",
+      "C": "4480",
+      "D": "9600",
+      "E": "None of these"
+     },
+     "correct_option": "E",
+     "explanation": "Evaluating the expression gives 4500. That value is not among options A-D, so the answer is E (None of these).",
+     "source_explanation": "Given expression : 3640 ÷ 14 ×16 + 340 = ? 260 × 16 + 340 ⇒ 4160 + 340 ⇒ 4500. Hence, option E is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 2",
+   "source_file": "Simplification_Quiz_2.pdf",
+   "questions": [
+    {
+     "question": "98643 - 21748 = 51212 + ?",
+     "options": {
+      "A": "24383",
+      "B": "24713",
+      "C": "25683",
+      "D": "25973",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Putting option C (25683) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "Given eqn. 98643 - 21748 = 51212 + ? ⇒ ? = 98643 - 21748 - 51212 ⇒ ? = 25683 Hence, option C is correct."
+    },
+    {
+     "question": "- 948 + 147 - ? = - 1432",
+     "options": {
+      "A": "683",
+      "B": "631",
+      "C": "647",
+      "D": "676",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (631) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "- 948 + 147 - ? = - 1432 - 801 - ? = - 1432 ? = 631 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 4",
+   "source_file": "Simplification_Quiz_4.pdf",
+   "questions": [
+    {
+     "question": "(14896 ÷ 19) ÷ 16 = ?",
+     "options": {
+      "A": "49",
+      "B": "54",
+      "C": "58",
+      "D": "62",
+      "E": "67"
+     },
+     "correct_option": "A",
+     "explanation": "Evaluating the expression gives 49, which is option A.",
+     "source_explanation": "(14896 ÷ 19) ÷ 16 = ? ⇒ ? = 14896 ÷ 16 19 ⇒ ? = 14896 ÷ 16 ⇒ 784 = 49 19 16 Hence, option A is correct."
+    },
+    {
+     "question": "8195 ÷ 745 + ? × 12 = 7847",
+     "options": {
+      "A": "648",
+      "B": "593",
+      "C": "601",
+      "D": "653",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (653) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "8195 ÷ 745 + ? × 12 = 7847 or, ? × 12 = 7847 - 8195 = 7847 - 11 745 or, ? × 12 = 7836 ∴ ? = 653. Hence, option D is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 5",
+   "source_file": "Simplification_Quiz_5.pdf",
+   "questions": [
+    {
+     "question": "38% of 7500 + ?% of 375 = 50% of 6000",
+     "options": {
+      "A": "40",
+      "B": "50",
+      "C": "60",
+      "D": "70",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (40) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "38% of 7500 + ? % of 375 = 50% of 6000 38 × 7500 + ? × 375 = 50 × 6000 100 100 100 2850 + ? × 3.75 = 3000 ? = 3000 - 2850 = 40 3.75 Hence, option A is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 6",
+   "source_file": "Simplification_Quiz_6.pdf",
+   "questions": [
+    {
+     "question": "46% of 1250 + ?% of 4680 = 1183.4",
+     "options": {
+      "A": "18",
+      "B": "15",
+      "C": "22",
+      "D": "24",
+      "E": "13"
+     },
+     "correct_option": "E",
+     "explanation": "Putting option E (13) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "46% of 1250 + ?% of 4680 = 1183.4 46 × 1250 + ? × 4680 = 1183.4 100 100 575 + ? × 234 = 1183.4 5 ? × 234 = 1183.4 - 575 = 608.4 5 ? = 608.4 × 5 = 3042 = 13 234 234 Hence, option E is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 8",
+   "source_file": "Simplification_Quiz_8.pdf",
+   "questions": [
+    {
+     "question": "333.44 + 33.4444 + 3.444 + 3333.4 = ?",
+     "options": {
+      "A": "3703.5284",
+      "B": "3704.7284",
+      "C": "3703.7284",
+      "D": "3703.7384",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 3703.7284, which is option C.",
+     "source_explanation": "333.44 + 33.4444 + 3.444 + 3333.4 = ? 3 + 33 + 333 + 3333 + .4 + .44 + .444 + .4444 = ? 3 (1234) + 4(.4321) = ? 3702 + 1.7284 = ? ? = 3703.7284 Hence, option C is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 10",
+   "source_file": "Simplification_Quiz_10.pdf",
+   "questions": [
+    {
+     "question": "11.5% of 288 - ?% of 150 = - 1016.88",
+     "options": {
+      "A": "500",
+      "B": "400",
+      "C": "650",
+      "D": "700",
+      "E": "100"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (700) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "11.5% of 288 - ?% of 150 = - 1016.88 23% of 144 - ?% of 150 = - 1016.88 33.12 + 1016.88 = 1.5 × ? 1050 = 1.5 × ? ? = ? = 700 Hence, option D is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 12",
+   "source_file": "Simplification_Quiz_12.pdf",
+   "questions": [
+    {
+     "question": "787.20 + 809.61 + 812.80 + 778.39 = ? + 699.039 + 700.961",
+     "options": {
+      "A": "1568",
+      "B": "1698",
+      "C": "1788",
+      "D": "1848",
+      "E": "1918"
+     },
+     "correct_option": "C",
+     "explanation": "Putting option C (1788) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "787.20 + 809.61 + 812.80 + 778.39 = ? + 699.039 + 700.961 1600 + 1588 = ? + 1400 ? = 3188 - 1400 ? = 1788 Hence, option C is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 13",
+   "source_file": "Simplification_Quiz_13.pdf",
+   "questions": [
+    {
+     "question": "323.46 + 23.04 - 43.17 - ? = 303",
+     "options": {
+      "A": "0.33",
+      "B": "1.33",
+      "C": "1.23",
+      "D": "0.21",
+      "E": "0.51"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (0.33) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "323.46 + 23.04 - 43.17 - ? = 303 or, ? = 303.33 - 303 = 0.33 Hence, option A is correct."
+    },
+    {
+     "question": "48.2 × 2.5 × 2.2 + ? = 270",
+     "options": {
+      "A": "6.5",
+      "B": "2.8",
+      "C": "4.9",
+      "D": "3.4",
+      "E": "1.2"
+     },
+     "correct_option": "C",
+     "explanation": "Putting option C (4.9) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "48.2 × 2.5 × 2.2 + ? = 270 or, ? = 270 - 48.2 × 2.5 × 2.2 = 270 × 48.2 × 5.5 = 270 - 265.1 = 4.9 Hence, option C is correct."
+    },
+    {
+     "question": "128.43 + 30.21 + ? = 173",
+     "options": {
+      "A": "35.66",
+      "B": "29.66",
+      "C": "43.66",
+      "D": "24.66",
+      "E": "14.36"
+     },
+     "correct_option": "E",
+     "explanation": "Putting option E (14.36) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "128.43 + 30.21 + ? = 173 or, ? = 173 - 158.64 = 14.36 Hence, option E is correct."
+    },
+    {
+     "question": "1817 - 23 + 26 - 1385 = ?",
+     "options": {
+      "A": "225",
+      "B": "435",
+      "C": "324",
+      "D": "128",
+      "E": "380"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 435, which is option B.",
+     "source_explanation": "1817 - 23 + 26 - 1385 = ? or, 1843 - 1408 = 435 Hence, option B is correct."
+    },
+    {
+     "question": "32% of 825 + 25% of 1440 = 1080 - ?",
+     "options": {
+      "A": "456",
+      "B": "206",
+      "C": "223",
+      "D": "216",
+      "E": "125"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (456) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "32% of 825 + 25% of 1440 = 1080 - ? or, ? = 1080 - (32% of 825 + 25% of 1440) = 1080 - (32 × 8.25 + × 1440) = 1080 - (264 + 360) = 1080 - 624 = 456 Hence, option A is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 14",
+   "source_file": "Simplification_Quiz_14.pdf",
+   "questions": [
+    {
+     "question": "? % of (152 ÷ 19 × 45) = 126",
+     "options": {
+      "A": "28",
+      "B": "32.5",
+      "C": "35",
+      "D": "38.5",
+      "E": "42"
+     },
+     "correct_option": "C",
+     "explanation": "Putting option C (35) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "?% of (152 ÷ 19 × 45) = 126 ⇒ ?% of (8 × 45) = 126 ⇒ ?% of (8 × 45) = 126 ⇒ ?% of 360 = 126 ⇒ ?% = 126 360 ⇒ ? = 126 × 100 360 ⇒ ? = 35 Hence, option C the correct answer."
+    },
+    {
+     "question": "(12121 ÷ 100) + (42424 ÷ 50) = ?",
+     "options": {
+      "A": "969.69",
+      "B": "853.41",
+      "C": "923.78",
+      "D": "991.12",
+      "E": "945.91"
+     },
+     "correct_option": "A",
+     "explanation": "Evaluating the expression gives 969.69, which is option A.",
+     "source_explanation": "(12121 ÷ 100) + (42424 ÷ 50) = ? = 121.21 + 848.48 = 969.69 Hence, option (A) is correct."
+    },
+    {
+     "question": "145% of 342 - 684% of 22.5 = ?",
+     "options": {
+      "A": "322",
+      "B": "308.5",
+      "C": "348.25",
+      "D": "364",
+      "E": "342"
+     },
+     "correct_option": "E",
+     "explanation": "Evaluating the expression gives 342, which is option E.",
+     "source_explanation": "145% of 342 - 684% of 22.5 = ? Or, 145% of 342 - 342% of 45 Or, 145% of 342 - 45% of 342 Or, (145% - 45%) of 342 = 100% of 342 = 342 Hence, option (E) is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 16",
+   "source_file": "Simplification_Quiz_16.pdf",
+   "questions": [
+    {
+     "question": "221 ÷ 23.6 × 94.4 ÷ 169 ÷ 17 = ? ÷ 91",
+     "options": {
+      "A": "15",
+      "B": "28",
+      "C": "30",
+      "D": "45",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (28) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "221 ÷ 23.6 × 94.4 ÷ 169 ÷ 17 = ? ÷ 91 221 × 94.4 × 91 = ? 23.6 169 × 17 4 × 91 = ? 13 ? = 28 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 18",
+   "source_file": "Simplification_Quiz_18.pdf",
+   "questions": [
+    {
+     "question": "8765 - 3246 + 6783 = 4516 + ?",
+     "options": {
+      "A": "6786",
+      "B": "7786",
+      "C": "7876",
+      "D": "8776",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (7786) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "8765 - 3246 + 6783 = 4516 + ? ? = 8765 - 3246 + 6783 - 4516 ? = 7786 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 19",
+   "source_file": "Simplification_Quiz_19.pdf",
+   "questions": [
+    {
+     "question": "468 ÷ 39 × 20 + 226 = ? + 420",
+     "options": {
+      "A": "36",
+      "B": "46",
+      "C": "26",
+      "D": "16",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (46) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "468 ÷ 39 × 20 + 226 = ? + 420 ? = 468 ÷ 39 × 20 + 226 - 420 = 12 × 20 + 226 - 420 = 240 + 226 - 420 ? = 46 Hence, option B is correct."
+    },
+    {
+     "question": "6668 + 446.8 + 2468.28 - 8326.68 + 2248.6 = ?",
+     "options": {
+      "A": "3105",
+      "B": "3205",
+      "C": "3505",
+      "D": "3405",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 3505, which is option C.",
+     "source_explanation": "6668 + 446.8 + 2468.28 - 8326.68 + 2248.6 = ? ? = 6668 + 446.8 + 2468.28 - 8326.68 + 2248.6 ? = 3505 Hence, option C is correct."
+    },
+    {
+     "question": "88% of 1555 = 38% of 1518 + ?",
+     "options": {
+      "A": "541.56",
+      "B": "591.56",
+      "C": "781.56",
+      "D": "791.56",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (791.56) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "88% of 1555 = 38% of 1518 + ? ⇒ 1368.4 - 576.84 = 791.56 Hence, option D is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 20",
+   "source_file": "Simplification_Quiz_20.pdf",
+   "questions": [
+    {
+     "question": "? × (1047 + 137.5) = 46195.5",
+     "options": {
+      "A": "27.4",
+      "B": "36",
+      "C": "28.4",
+      "D": "39",
+      "E": "28"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (39) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "? × (1047 + 137.5) = 46195.5 ? = 46195.5 = 39 1184.5 Hence, option D is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 21",
+   "source_file": "Simplification_Quiz_21.pdf",
+   "questions": [
+    {
+     "question": "58% of 850 + ? = 1224 - 603",
+     "options": {
+      "A": "128",
+      "B": "130",
+      "C": "138",
+      "D": "140",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (128) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "58% of 850 + ? = 1224 - 603 ? = 1224 - 603 - 58% of 850 = 621 - 493 = 128 Hence, option A is correct."
+    },
+    {
+     "question": "8743 + 486 ÷ 18 × 148 = ?",
+     "options": {
+      "A": "3264",
+      "B": "12739",
+      "C": "11432",
+      "D": "9843",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 12739, which is option B.",
+     "source_explanation": "8743 + 486 ÷ 18 × 148 = ? ? = 8743 + 27 × 148 ? = 8743 + 3996 ? = 12739 Hence, option B is correct."
+    },
+    {
+     "question": "?% of (140 × 8 - 680) = 330",
+     "options": {
+      "A": "65",
+      "B": "70",
+      "C": "72",
+      "D": "75",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (75) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "?% of (140 × 8 - 680) = 330 or, ? × (140 × 8 - 680) = 330 100 or, ? × (1120 - 680) = 330 × 100 or, ? × 440 = 33000 or, ? = 75 Hence, option D is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 22",
+   "source_file": "Simplification_Quiz_22.pdf",
+   "questions": [
+    {
+     "question": "24.8% of 1550 - 13.2% of 1125 = ?",
+     "options": {
+      "A": "231.1",
+      "B": "235.9",
+      "C": "239.4",
+      "D": "243",
+      "E": "246.5"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 235.9, which is option B.",
+     "source_explanation": "24.8% of 1550 - 13.2% of 1125 = ? ? = 384.4 - 148.5 = 235.9 Hence, option B is correct."
+    },
+    {
+     "question": "16.4 × 7.75 × 12 = ?",
+     "options": {
+      "A": "1122.6",
+      "B": "1426.8",
+      "C": "1628.4",
+      "D": "1525.2",
+      "E": "1320"
+     },
+     "correct_option": "D",
+     "explanation": "Evaluating the expression gives 1525.2, which is option D.",
+     "source_explanation": "16.4 × 7.75 × 12 = ? ? = 127.1 × 12 = 1525.2 Hence, option D is correct."
+    },
+    {
+     "question": "319.24 - 106.89 + 431.65 - 240.33 = ?",
+     "options": {
+      "A": "407.67",
+      "B": "421.27",
+      "C": "403.67",
+      "D": "424.57",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 403.67, which is option C.",
+     "source_explanation": "319.24 - 106.89 + 431.65 - 240.33 = ? ? = 750.89 - 347.22 = 403.67 Hence, option C is correct."
+    },
+    {
+     "question": "48% of 1735 + 36% of 1545 = ?",
+     "options": {
+      "A": "1184",
+      "B": "1216",
+      "C": "1278",
+      "D": "1324",
+      "E": "1389"
+     },
+     "correct_option": "E",
+     "explanation": "Evaluating the expression gives 1389, which is option E.",
+     "source_explanation": "48% of 1735 + 36% of 1545 = ? ? = 48% of 1735 + 36% of 1545 ? = 832.8 + 556.2 = 1389 Hence, option E is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 23",
+   "source_file": "Simplification_Quiz_23.pdf",
+   "questions": [
+    {
+     "question": "7854 × 549 ÷ 3 - 1425 × 321 + √961 = ?",
+     "options": {
+      "A": "979999",
+      "B": "979888",
+      "C": "979910",
+      "D": "989890",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 979888, which is option B.",
+     "source_explanation": "7854 × 549 ÷ 3 - 1425 × 321 + √961 = ? or, 7854 × 183 - 1425 × 321 + 31 = ? or, 1437282 - 457425 + 31 = ? or, ? = 979888 Hence, option B is correct."
+    },
+    {
+     "question": "8200 × 67 - 32518 = ? × 90 + 12",
+     "options": {
+      "A": "5743",
+      "B": "6587",
+      "C": "5796",
+      "D": "6425",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (5743) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "⇒ 8200 × 67 - 32518 =? × 90 + 12 ⇒ 549400 - 32518 =? × 90 + 12 ⇒ 516882 = ? × 90 + 12 ⇒ ? × 90 = 516882 - 12 ⇒ ? = 516870 90 ⇒ ? = 5743 Hence, option A is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 24",
+   "source_file": "Simplification_Quiz_24.pdf",
+   "questions": [
+    {
+     "question": "√576 × √225× 36% of 1000 = ? + 540",
+     "options": {
+      "A": "129060",
+      "B": "139060",
+      "C": "229060",
+      "D": "149060",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (129060) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "√576 × √225× 36% of 1000 = ? + 540 ⇒ 24 × 15 × 36 × 1000 = x + 540 100 ⇒ 360 × 360 = x + 540 ⇒ 129600 = x + 540 ⇒ x =129600 - 540 ⇒ x = 129060 Hence, option (A) is correct."
+    },
+    {
+     "question": "16 × 24 + 23 - ? = 28% of 200",
+     "options": {
+      "A": "531",
+      "B": "513",
+      "C": "351",
+      "D": "315",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Putting option C (351) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "16 × 24 + 23 - ? = 28% of 200 ⇒ 384 + 23 - x = 56 ⇒ x = 407 - 56 ⇒ x = 351 Hence, option (C) is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 25",
+   "source_file": "Simplification_Quiz_25.pdf",
+   "questions": [
+    {
+     "question": "25% of 720 + 16% of 425 - 22% of 560 = ?",
+     "options": {
+      "A": "178.28",
+      "B": "88.28",
+      "C": "128.82",
+      "D": "124.8",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Evaluating the expression gives 124.8, which is option D.",
+     "source_explanation": "25% of 720 + 16% of 425 - 22% of 560 = ? = 180 + 68 - 123.2 = 124.8 Hence, option (D) is correct."
+    },
+    {
+     "question": "√1296 × √6.25 + 56% of 350 = ? + 235",
+     "options": {
+      "A": "67",
+      "B": "51",
+      "C": "58",
+      "D": "49",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (51) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "√1296 × √6.25 + 56% of 350 = ? + 235 ⇒ 36 × 2.5 + 56 × 350 = x + 235 100 ⇒ 90 + 196 = x + 235 ⇒ x = 286 - 235 ⇒ x = 51 Hence, option (B) is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 26",
+   "source_file": "Simplification_Quiz_26.pdf",
+   "questions": [
+    {
+     "question": "133.223 + 222.32 + 32.2 + 111.02 = ?",
+     "options": {
+      "A": "450.56",
+      "B": "498.763",
+      "C": "509.566",
+      "D": "505.634",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 498.763, which is option B.",
+     "source_explanation": "133.223 + 222.32 + 32.2 + 111.02 = ? ? = 498.763 Hence, option (B) is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 31",
+   "source_file": "Simplification_Quiz_31.pdf",
+   "questions": [
+    {
+     "question": "784 ÷ 14 + 598 ÷ 13 + ? = 99% of 2500",
+     "options": {
+      "A": "2475",
+      "B": "2373",
+      "C": "2285",
+      "D": "2565",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (2373) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "784 ÷ 14 + 598 ÷ 13 + ? = 99% of 2500 784 + 598 + ? = 99 × 2500 14 13 100 56 + 46 + ? = 2475 ? = 2475 - 102 = 2373 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 34",
+   "source_file": "Simplification_Quiz_34.pdf",
+   "questions": [
+    {
+     "question": "641.23 - 228.48 - 124.21 = ?",
+     "options": {
+      "A": "378.54",
+      "B": "278.54",
+      "C": "288.54",
+      "D": "298.54",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 288.54, which is option C.",
+     "source_explanation": "641.23 - 228.48 - 124.21 = ? ? = 288.54 Hence, option C is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 35",
+   "source_file": "Simplification_Quiz_35.pdf",
+   "questions": [
+    {
+     "question": "5 × ? = 735 ÷ 3",
+     "options": {
+      "A": "39",
+      "B": "59",
+      "C": "43",
+      "D": "49",
+      "E": "53"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (49) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "5 × ? = 735 ÷ 3 5 × ? = 245 ? = 245 = 49 5 Hence, option D is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 38",
+   "source_file": "Simplification_Quiz_38.pdf",
+   "questions": [
+    {
+     "question": "38% of 430 + 54% of 890 = ?",
+     "options": {
+      "A": "624",
+      "B": "634",
+      "C": "644",
+      "D": "654",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 644, which is option C.",
+     "source_explanation": "38% of 430 + 54% of 890 = ? 163.40 + 480.60 = ? ? = 644 Hence, option C is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 39",
+   "source_file": "Simplification_Quiz_39.pdf",
+   "questions": [
+    {
+     "question": "49% of 520 + 51% of 480 = ?",
+     "options": {
+      "A": "499.6",
+      "B": "498.6",
+      "C": "502.1",
+      "D": "505.8",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Evaluating the expression gives 499.6, which is option A.",
+     "source_explanation": "49% of 520 + 51% of 480 = ? ? = 49 × 520 + 51 × 480 100 100 ? = 254.8 + 244.8 = 499.6 Hence, option A is correct. Alternate Solution:- 49% of 520 + 51% of 480 = ? ? = 50% of 520 - 1% of 520 + 50% of 480 + 1% of 480 ? = 50% of (520 + 480) - 1% of (520 - 480) ? = 500 - 0.4 = 499.6 Hence option A is correct"
+    },
+    {
+     "question": "3.4 × 1.8 ÷ 1.53 + 13.4 = ?",
+     "options": {
+      "A": "17.8",
+      "B": "16.8",
+      "C": "17.4",
+      "D": "16.4",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 17.4, which is option C.",
+     "source_explanation": "3.4 × 1.8 ÷ 1.53 + 13.4 = ? ? = 3.4 × 1.8 + 13.4 1.53 ? = 34 × 18 + 134 153 ? = 4 + 13.4 = 17.4 Hence, option C is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 41",
+   "source_file": "Simplification_Quiz_41.pdf",
+   "questions": [
+    {
+     "question": "189820 - 22624 + 35 × ? - 372 × 28 = 194440",
+     "options": {
+      "A": "1045",
+      "B": "1087",
+      "C": "1076",
+      "D": "1095",
+      "E": "1176"
+     },
+     "correct_option": "C",
+     "explanation": "Putting option C (1076) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "189820 - 22624 + 35 × ? - 372 × 28 = 194440 or, 167196 + 35 × ? - (370 + 2) × 28 = 194440 or, 35 × ? = 194440 - 167196 - (370 + 2) × 28 or, 35 × ? = 194440 - 167196 - 10360 + 56 or, 35 × ? = 37660 or, ? = 1076 Hence, option C is correct."
+    },
+    {
+     "question": "44% of 1950 + 82% of 250 + 62% of ? = 7883",
+     "options": {
+      "A": "11500",
+      "B": "1110",
+      "C": "10000",
+      "D": "11800",
+      "E": "11000"
+     },
+     "correct_option": "E",
+     "explanation": "Putting option E (11000) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "44% of 1950 + 82% of 250 + 62% of ? = 7883 or, 50% of 1950 - 6% of 1950) + 100% of 250 - 10% of 250 - 8% of 250 + 62% of ? = 7883 or, 975 - 117 + 250 - 25 - 20 + 62% of ? = 7883 or, 62% of ? = 7883 - 1063 or, 62% of ? = 6820 or, ? = 6820 × 100 = 11000 62 Hence, option E is correct."
+    },
+    {
+     "question": "42.8 × 13.5 × 16.2 × ? = 2340.09",
+     "options": {
+      "A": "0.15",
+      "B": "0.25",
+      "C": "0.5",
+      "D": "0.75",
+      "E": "1"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (0.25) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "42.8 × 13.5 × 16.2 × ? = 2340.09 ∴ ? = 2340.09 = 0.25 42.8 × 13.5 × 16.2 Hence, option B is correct."
+    },
+    {
+     "question": "486 ÷ ? × 7392 ÷ 66 = 1008",
+     "options": {
+      "A": "54",
+      "B": "55",
+      "C": "52",
+      "D": "53",
+      "E": "51"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (54) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "486 ÷ ? × 7392 ÷ 66 = 1008 or, 486 × 7392 = 1008 ? 66 ∴ ? = 486 × 7392 = 54 66 × 1008 Hence, option A is correct."
+    },
+    {
+     "question": "17.8% of ? = 427.2 × 8.4% of 135",
+     "options": {
+      "A": "21784",
+      "B": "24378",
+      "C": "27216",
+      "D": "28120",
+      "E": "25315"
+     },
+     "correct_option": "C",
+     "explanation": "Putting option C (27216) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "17.8% of ? = 427.2 × 8.4% of 135 or, 17.8 × ? = 427.2 × 8.4 × 135 100 100 ∴ ? = 427.2 × 8.4 × 135 = 27216 17.8 Hence, option C is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 42",
+   "source_file": "Simplification_Quiz_42.pdf",
+   "questions": [
+    {
+     "question": "1.25 × 844 + 0.5 × 432 + ? = 2500",
+     "options": {
+      "A": "1229",
+      "B": "1341",
+      "C": "1339",
+      "D": "1489",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (1229) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "1.25 × 844 + 0.5 × 432 + ? = 2500 5 × 844 + 1 × 432 + ? = 2500 4 2 ? = 2500 - (5 × 211) - 216 ? = 2500 - 1271 = 1229 Hence, option A is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 43",
+   "source_file": "Simplification_Quiz_43.pdf",
+   "questions": [
+    {
+     "question": "325 ÷ 13 × √784 = 10% of ?",
+     "options": {
+      "A": "7000",
+      "B": "700",
+      "C": "1100",
+      "D": "900",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (7000) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "325 ÷ 13 × √784 = 10% of ? 25 × 28 = 1 of ? 10 ? = 7000 Hence, option A is correct."
+    },
+    {
+     "question": "25% of 624 + ? = 729 - 512",
+     "options": {
+      "A": "61",
+      "B": "66",
+      "C": "55",
+      "D": "51",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (61) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "25% of 624 + ? = 729 - 512 25 × 624 + ? = 217 100 ? = 217 - 156 = 61 Hence, option A is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 44",
+   "source_file": "Simplification_Quiz_44.pdf",
+   "questions": [
+    {
+     "question": "5 × √? = 735 ÷ 3",
+     "options": {
+      "A": "7",
+      "B": "49",
+      "C": "2401",
+      "D": "98",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Putting option C (2401) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "5 × √? = 735 ÷ 3 5 × √? = 245 √? = 49 ? = 2401 Hence, option C is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 45",
+   "source_file": "Simplification_Quiz_45.pdf",
+   "questions": [
+    {
+     "question": "42.32 + 423.4 + 56.28 - 122.2 = ?",
+     "options": {
+      "A": "18.74",
+      "B": "128.72",
+      "C": "398.2",
+      "D": "399.8",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Evaluating the expression gives 399.8, which is option D.",
+     "source_explanation": "42.32 + 423.4 + 56.28 - 122.2 = ? ? = 522 - 122.2 = 399.8 Hence, option D is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 46",
+   "source_file": "Simplification_Quiz_46.pdf",
+   "questions": [
+    {
+     "question": "6992 ÷ 19 - ?% of 652 = - 4196",
+     "options": {
+      "A": "700",
+      "B": "600",
+      "C": "300",
+      "D": "800",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (700) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "6992 ÷ 19 - ?% of 652 = - 4196 368 + 4196 = ?% of 652 ?% of 652 = 4564 ? = 4564 ÷ 652 × 100 ? = 700 Hence, option A is correct."
+    },
+    {
+     "question": "38% of 295 + 62% of 445 = ?",
+     "options": {
+      "A": "386",
+      "B": "388",
+      "C": "380",
+      "D": "381",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 388, which is option B.",
+     "source_explanation": "38% of 295 + 62% of 445 = ? ? = 38 × 295 + 62 × 445 100 100 ? = 0.38 × 295 + 0.62 × 445 ? = 112.1 + 275.9 ? = 388 Hence, option B is correct."
+    },
+    {
+     "question": "150% of 300 + ?% of 500 = 800",
+     "options": {
+      "A": "60",
+      "B": "70",
+      "C": "50",
+      "D": "75",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (70) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "150% of 300 + ?% of 500 = 800 ?% of 500 = 800 - 150% of 300 ? × 500 = 800 - 450 100 ? × 500 = 350 100 ? = 350 × 100 = 70 500 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 47",
+   "source_file": "Simplification_Quiz_47.pdf",
+   "questions": [
+    {
+     "question": "1454 + 2365 + 9710 + 3020 = ?",
+     "options": {
+      "A": "20718",
+      "B": "18121",
+      "C": "16549",
+      "D": "14226",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 16549, which is option C.",
+     "source_explanation": "1454 + 2365 + 9710 + 3020 = ? ? = 1454 + 2365 + 9710 + 3020 ? = 16549 Hence, option C is correct."
+    },
+    {
+     "question": "67.5% of 960 + ?% of 640 = 728",
+     "options": {
+      "A": "12.5",
+      "B": "25",
+      "C": "12",
+      "D": "11",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (12.5) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "67.5% of 960 + ?% of 640 = 728 67.5 × 960 + ? × 640 = 728 100 100 648 + ? × 640 = 728 100 ? × 640 = 728 - 648 100 ? × 640 = 80 100 ? = 80 × 100 640 ? = 12.5 Hence, option A is correct."
+    },
+    {
+     "question": "632323 + 454545 - 757575 - 157866 = ?",
+     "options": {
+      "A": "187548",
+      "B": "174578",
+      "C": "171427",
+      "D": "172787",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 171427, which is option C.",
+     "source_explanation": "632323 + 454545 - 757575 - 157866 = ? ? = 1086868 - 915441 ? = 171427 Hence, option C is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 48",
+   "source_file": "Simplification_Quiz_48.pdf",
+   "questions": [
+    {
+     "question": "62% of 16850 + 32% of 7345 = 52% of 645 + ?",
+     "options": {
+      "A": "10328",
+      "B": "12462",
+      "C": "10358",
+      "D": "10748",
+      "E": "12360"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (12462) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "62% of 16850 + 32% of 7345 = 52% of 645 + ? 10447 + 2350.40 = 335.40 + ? ? = 12462 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 50",
+   "source_file": "Simplification_Quiz_50.pdf",
+   "questions": [
+    {
+     "question": "185% of 500 - 46% of 1650 = 4 × ?",
+     "options": {
+      "A": "42.5",
+      "B": "35.5",
+      "C": "53.5",
+      "D": "41.5",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (41.5) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "185% of 500 - 46% of 1650 = 4 × ? ⇒ 185% of 500 - 46% of 1650 = 4 × ? ⇒ (925 - 759) = 4 × ? ⇒ 166 = 4 × ? ⇒ ? = 41.5 Hence, option D is correct."
+    },
+    {
+     "question": "24473 - 12016 - 11037 + 22477 = ? + 9473",
+     "options": {
+      "A": "14136",
+      "B": "14424",
+      "C": "14760",
+      "D": "18342",
+      "E": "14572"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (14424) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "24473 - 12016 - 11037 + 22477 = ? + 9473 ? = 24473 - 12016 - 11037 + 22477 - 9473 ? = 46950 - 32526 ? = 14424 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 51",
+   "source_file": "Simplification_Quiz_51.pdf",
+   "questions": [
+    {
+     "question": "1332 ÷ 36 × 23 + 287 - 189 = ?",
+     "options": {
+      "A": "1029",
+      "B": "988",
+      "C": "850",
+      "D": "949",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Evaluating the expression gives 949, which is option D.",
+     "source_explanation": "1332 ÷ 36 × 23 + 287 - 189 = ? ⇒ 1332 × 23 + 287 - 189 36 = 851 + 287 - 189 = 1138 - 189 = 949 Hence, option D is correct."
+    },
+    {
+     "question": "0.8% of 2580 + 16% of 685 = ?",
+     "options": {
+      "A": "125.76",
+      "B": "120.76",
+      "C": "130.24",
+      "D": "124.76",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 130.24, which is option C.",
+     "source_explanation": "0.8% of 2580 + 16% of 685 = ? ? = 8 × 2580 + 16 × 685 10 × 100 100 = 20.64 + 109.6 = 130.24 Hence, option C is correct."
+    },
+    {
+     "question": "(153 × 1331) ÷ (11 × 17) = ?",
+     "options": {
+      "A": "948",
+      "B": "1089",
+      "C": "1153",
+      "D": "1249",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 1089, which is option B.",
+     "source_explanation": "(153 × 1331) ÷ (11 × 17) = ? ? = 153 × 1331 = 9 × 121 = 1089 11 × 17 Hence, option B is correct."
+    },
+    {
+     "question": "9845 - 3746 + 5483 = 7416 + ?",
+     "options": {
+      "A": "3614",
+      "B": "4166",
+      "C": "2876",
+      "D": "3776",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (4166) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "9845 - 3746 + 5483 = 7416 + ? ? = 9845 - 3746 + 5483 - 7416 ? = 4166 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 52",
+   "source_file": "Simplification_Quiz_52.pdf",
+   "questions": [
+    {
+     "question": "7878 ÷ 26 × 13 - 333 = ?",
+     "options": {
+      "A": "3806",
+      "B": "3636",
+      "C": "2406",
+      "D": "3606",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Evaluating the expression gives 3606, which is option D.",
+     "source_explanation": "7878 ÷ 26 × 13 - 333 = ? ? = 303 × 13 - 333 ? = 3939 - 333 ? = 3606 Hence, option D is correct."
+    },
+    {
+     "question": "1496 ÷ 34 = ? + 39",
+     "options": {
+      "A": "3",
+      "B": "5",
+      "C": "9",
+      "D": "15",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (5) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "1496 ÷ 34 = ? + 39 ? = 1496 ÷ 34 - 39 ? = 44 - 39 ? = 5 Hence, option B is correct."
+    },
+    {
+     "question": "√2116 + √1296 - √1681 = ?",
+     "options": {
+      "A": "12",
+      "B": "33",
+      "C": "46",
+      "D": "24",
+      "E": "None of these"
+     },
+     "correct_option": "E",
+     "explanation": "Evaluating the expression gives 41. That value is not among options A-D, so the answer is E (None of these).",
+     "source_explanation": "√2116 + √1296 - √1681 = ? 462 = 2116, 362 = 1296, 412 = 1681 ? = √2116 + √1296 - √1681 ? = 46 + 36 - 41 ? = 41 Hence, option E is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 53",
+   "source_file": "Simplification_Quiz_53.pdf",
+   "questions": [
+    {
+     "question": "(6386 ÷ 31) + (825 ÷ 33) + (9720 ÷ 216) = ?",
+     "options": {
+      "A": "271",
+      "B": "276",
+      "C": "283",
+      "D": "286",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 276, which is option B.",
+     "source_explanation": "⇒ (6386 ÷ 31) + (825 ÷ 33) + (9720 ÷ 216) =? ⇒ 206 + 25 + 45 =? ⇒ ? = 276 Hence, option B is correct."
+    },
+    {
+     "question": "1512 ÷ 36 + 44 × 32 = ?",
+     "options": {
+      "A": "1216",
+      "B": "1450",
+      "C": "1346",
+      "D": "2527",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 1450, which is option B.",
+     "source_explanation": "1512 ÷ 36 + 44 × 32 = ? ? = 42 + 1408 ? = 1450 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 54",
+   "source_file": "Simplification_Quiz_54.pdf",
+   "questions": [
+    {
+     "question": "26% of 275 + √1296 - 7.5 × 11 = ?",
+     "options": {
+      "A": "25",
+      "B": "-25",
+      "C": "30",
+      "D": "35",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Evaluating the expression gives 25, which is option A.",
+     "source_explanation": "⇒ 26% of 275 + √1296 - 7.5 × 11 = ? ⇒ 71.5 + 36 - 82.5 = ? ⇒ ? = 25 Hence, option A is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 55",
+   "source_file": "Simplification_Quiz_55.pdf",
+   "questions": [
+    {
+     "question": "235.265 - 483.67 + 956.71 + 33.523 - 17.231 = ?",
+     "options": {
+      "A": "687.391",
+      "B": "705.523",
+      "C": "724.597",
+      "D": "749.498",
+      "E": "None of these"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 724.597, which is option C.",
+     "source_explanation": "235.265 - 483.67 + 956.71 + 33.523 - 17.231 = ? ? = 1225.498 - 500.901 ? = 724.597 Hence, Option C is correct."
+    },
+    {
+     "question": "12 × 15 + 27 - ? = 28% of 400",
+     "options": {
+      "A": "67",
+      "B": "131",
+      "C": "119",
+      "D": "95",
+      "E": "None of these"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (95) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "12 × 15 + 27 - ? = 28% of 400 ⇒ 180 + 27 - ? = 112 ⇒ ? = 207 - 112 ⇒ ? = 95 Hence, option (D) is correct."
+    },
+    {
+     "question": "25% of 680 + 16% of 525 - 22% of 450 = ?",
+     "options": {
+      "A": "217",
+      "B": "155",
+      "C": "233",
+      "D": "189",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 155, which is option B.",
+     "source_explanation": "25% of 680 + 16% of 525 - 22% of 450 = ? ? = 170 + 84 - 99 ? = 155 Hence, option (B) is correct."
+    },
+    {
+     "question": "√784 × √6.25 + 56% of 450 = ? + 186",
+     "options": {
+      "A": "136",
+      "B": "107",
+      "C": "121",
+      "D": "93",
+      "E": "None of these"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (136) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "√784 × √6.25 + 56% of 450 = ? + 186 ⇒ 28 × 2.5 + 56 × 450 = ? + 186 100 ⇒ 70 + 252 = ? + 186 ⇒ ? = 322 - 186 ⇒ ? = 136 Hence, option (A) is correct."
+    },
+    {
+     "question": "25% of 30% of 950 + 6 × 73 = ?",
+     "options": {
+      "A": "523.5",
+      "B": "509.25",
+      "C": "537.75",
+      "D": "545.25",
+      "E": "None of these"
+     },
+     "correct_option": "B",
+     "explanation": "Evaluating the expression gives 509.25, which is option B.",
+     "source_explanation": "25% of 30% of 950 + 6 × 73 = ? ? = 25 × 30 × 950 + 438 100 100 ? = 71.25 + 438 ? = 509.25 Hence, option (B) is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 56",
+   "source_file": "Simplification_Quiz_56.pdf",
+   "questions": [
+    {
+     "question": "13 + ? × (4.5 ÷ 6) × (3 - 1.8) = 31",
+     "options": {
+      "A": "18",
+      "B": "36",
+      "C": "2",
+      "D": "25",
+      "E": "20"
+     },
+     "correct_option": "E",
+     "explanation": "Putting option E (20) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "13 + ? × (4.5÷ 6) × (3 - 1.8) = 31 13 + ? × (0.9) = 31 ? = 20 Hence, option E is correct."
+    },
+    {
+     "question": "(3.9 ÷ 0.13) × (6.4 - 5.8) = ?",
+     "options": {
+      "A": "18",
+      "B": "9",
+      "C": "12",
+      "D": "20",
+      "E": "5"
+     },
+     "correct_option": "A",
+     "explanation": "Evaluating the expression gives 18, which is option A.",
+     "source_explanation": "(3.9 ÷ 0.13) × (6.4 - 5.8) = ? (30) × (0.6) = ? ? = 18 Hence, option A is correct."
+    },
+    {
+     "question": "? = (6.4 - 3.4) × (52 ÷ 1.3) + 0.8 × 0.75 ÷ 0.02",
+     "options": {
+      "A": "120",
+      "B": "90",
+      "C": "135",
+      "D": "175",
+      "E": "150"
+     },
+     "correct_option": "E",
+     "explanation": "Putting option E (150) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "? = (6.4 - 3.4) × (52 ÷ 1.3) + 0.8 × 0.75 ÷ 0.02 ? = (3) × (40) + 30 ? = 150 Hence, option E is correct."
+    },
+    {
+     "question": "(73 - ? × 3) = 4 × 3.2 ÷ 0.8 + 33",
+     "options": {
+      "A": "8",
+      "B": "12",
+      "C": "21",
+      "D": "5",
+      "E": "6"
+     },
+     "correct_option": "A",
+     "explanation": "Putting option A (8) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "(73 - ? × 3) = 4 × 3.2 ÷ 0.8 + 33 73 - ? × 3 = 16 + 33 ? × 3 = 73 - 16 - 33 ? = 8 Hence, option A is correct"
+    },
+    {
+     "question": "(14 + 212 - 68) = ? (44 + 35)",
+     "options": {
+      "A": "1",
+      "B": "2",
+      "C": "79",
+      "D": "158",
+      "E": "34"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (2) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "(14 + 212 - 68) = ? (44 + 35) 158 = ? 79 ? = 2 Hence, option B is correct."
+    }
+   ]
+  },
+  {
+   "quiz_name": "Simplification Quiz 57",
+   "source_file": "Simplification_Quiz_57.pdf",
+   "questions": [
+    {
+     "question": "38% of 500 - 22 = ? × 4",
+     "options": {
+      "A": "32",
+      "B": "60",
+      "C": "54",
+      "D": "42",
+      "E": "64"
+     },
+     "correct_option": "D",
+     "explanation": "Putting option D (42) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "38% of 500 - 22 = ? × 4 0.38 × 500 - 22 = ? × 4 ? = 168 = 42 4 Hence, option D is correct."
+    },
+    {
+     "question": "{(720 ÷ 5) + 112} ÷ 16 = ?",
+     "options": {
+      "A": "32",
+      "B": "8",
+      "C": "16",
+      "D": "9",
+      "E": "6"
+     },
+     "correct_option": "C",
+     "explanation": "Evaluating the expression gives 16, which is option C.",
+     "source_explanation": "{(720 ÷ 5) + 112} ÷ 16 = ? (144 + 112) ÷ 16 = ? 256 ÷ 16 = ? ? = 16 Hence, option C is correct."
+    },
+    {
+     "question": "(49 × 7) - 13% of 2500 = ? - 63",
+     "options": {
+      "A": "27",
+      "B": "81",
+      "C": "109",
+      "D": "73",
+      "E": "58"
+     },
+     "correct_option": "B",
+     "explanation": "Putting option B (81) in place of ? makes both sides of the equation equal, and no other option does.",
+     "source_explanation": "(49 × 7) - 13% of 2500 = ? - 63 343 - 13 × 25 = ? - 63 ? = 343 - 325 + 63 ? = 81 Hence, option B is correct."
+    }
+   ]
+  }
+ ]
+}

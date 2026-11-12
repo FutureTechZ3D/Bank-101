@@ -1,0 +1,1150 @@
+[
+    {
+        "quiz_id": 1,
+        "quiz_name": "Simplification Quiz 1",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "5004 ÷ 139 - 6 = ?",
+                "options": {
+                    "A": "24",
+                    "B": "30",
+                    "C": "36",
+                    "D": "42",
+                    "E": "None of these"
+                },
+                "correct_option": "B",
+                "explanation": "Given expression = 5004/139 - 6 = 36 - 6 = 30. Hence, option B is correct."
+            },
+            {
+                "question_id": 2,
+                "question": "2 - [2 - {2 - 2(2 + 2)}] = ?",
+                "options": {
+                    "A": "-4",
+                    "B": "4",
+                    "C": "6",
+                    "D": "-6",
+                    "E": "None of these"
+                },
+                "correct_option": "D",
+                "explanation": "Given expression = 2 - [2 - {2 - 2 * 4}] => 2 - [2 - {2 - 8}] => 2 - [2 - (-6)] => 2 - [2 + 6] => 2 - 8 = -6. Hence, option D is correct."
+            },
+            {
+                "question_id": 3,
+                "question": "3640 ÷ 14 × 16 + 340 = ?",
+                "options": {
+                    "A": "0.70",
+                    "B": "3525",
+                    "C": "4480",
+                    "D": "9600",
+                    "E": "None of these"
+                },
+                "correct_option": "E",
+                "explanation": "Given expression: 3640 ÷ 14 × 16 + 340 = 260 × 16 + 340 => 4160 + 340 => 4500. Hence, option E is correct."
+            },
+            {
+                "question_id": 4,
+                "question": "100 × 10 - 100 + 2000 ÷ 100 = ?",
+                "options": {
+                    "A": "29",
+                    "B": "920",
+                    "C": "979",
+                    "D": "1020",
+                    "E": "None of these"
+                },
+                "correct_option": "B",
+                "explanation": "Given expression = 100 × 10 - 100 + 20 => 1000 - 100 + 20 => 1020 - 100 => 920. Hence, option B (920) is correct."
+            },
+            {
+                "question_id": 5,
+                "question": "(4 + 4 × 18 - 6 - 8) / (123 × 6 - 146 × 5) = ?",
+                "options": {
+                    "A": "1",
+                    "B": "2",
+                    "C": "6.65",
+                    "D": "7.75",
+                    "E": "None of these"
+                },
+                "correct_option": "D",
+                "explanation": "By applying BODMAS rule, we get Numerator = 4 + 72 - 6 - 8 = 62. Denominator = 738 - 730 = 8. Expression = 62 / 8 = 7.75. Hence, option D is correct."
+            }
+        ]
+    },
+    {
+        "quiz_id": 2,
+        "quiz_name": "Simplification Quiz 2",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "(4/9) × 1701 + (2/11) × 1386 = ?",
+                "options": {
+                    "A": "180",
+                    "B": "1080",
+                    "C": "1008",
+                    "D": "1800",
+                    "E": "None of these"
+                },
+                "correct_option": "C",
+                "explanation": "? = (4 × 189) + (2 × 126) = 756 + 252 = 1008. Hence, option C is correct."
+            },
+            {
+                "question_id": 2,
+                "question": "9(3/7) + 6(4/7) - ? = 14(4/7)",
+                "options": {
+                    "A": "3/7",
+                    "B": "4/7",
+                    "C": "2(4/7)",
+                    "D": "1(3/7)",
+                    "E": "None of these"
+                },
+                "correct_option": "D",
+                "explanation": "? = 9 + 3/7 + 6 + 4/7 - 14 - 4/7 = 1 + 3/7 = 1(3/7). Hence, option D is correct."
+            }
+        ]
+    },
+    {
+        "quiz_id": 3,
+        "quiz_name": "Simplification Quiz 3",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 3?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 4,
+        "quiz_name": "Simplification Quiz 4",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 4?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 5,
+        "quiz_name": "Simplification Quiz 5",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 5?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 6,
+        "quiz_name": "Simplification Quiz 6",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 6?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 7,
+        "quiz_name": "Simplification Quiz 7",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 7?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 8,
+        "quiz_name": "Simplification Quiz 8",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 8?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 9,
+        "quiz_name": "Simplification Quiz 9",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 9?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 10,
+        "quiz_name": "Simplification Quiz 10",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 10?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 11,
+        "quiz_name": "Simplification Quiz 11",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 11?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 12,
+        "quiz_name": "Simplification Quiz 12",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 12?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 13,
+        "quiz_name": "Simplification Quiz 13",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 13?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 14,
+        "quiz_name": "Simplification Quiz 14",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 14?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 15,
+        "quiz_name": "Simplification Quiz 15",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 15?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 16,
+        "quiz_name": "Simplification Quiz 16",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 16?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 17,
+        "quiz_name": "Simplification Quiz 17",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 17?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 18,
+        "quiz_name": "Simplification Quiz 18",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 18?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 19,
+        "quiz_name": "Simplification Quiz 19",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 19?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 20,
+        "quiz_name": "Simplification Quiz 20",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 20?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 21,
+        "quiz_name": "Simplification Quiz 21",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 21?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 22,
+        "quiz_name": "Simplification Quiz 22",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 22?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 23,
+        "quiz_name": "Simplification Quiz 23",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 23?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 24,
+        "quiz_name": "Simplification Quiz 24",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 24?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 25,
+        "quiz_name": "Simplification Quiz 25",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 25?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 26,
+        "quiz_name": "Simplification Quiz 26",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 26?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 27,
+        "quiz_name": "Simplification Quiz 27",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 27?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 28,
+        "quiz_name": "Simplification Quiz 28",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 28?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 29,
+        "quiz_name": "Simplification Quiz 29",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 29?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 30,
+        "quiz_name": "Simplification Quiz 30",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 30?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 31,
+        "quiz_name": "Simplification Quiz 31",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 31?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 32,
+        "quiz_name": "Simplification Quiz 32",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 32?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 33,
+        "quiz_name": "Simplification Quiz 33",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 33?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 34,
+        "quiz_name": "Simplification Quiz 34",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 34?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 35,
+        "quiz_name": "Simplification Quiz 35",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 35?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 36,
+        "quiz_name": "Simplification Quiz 36",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 36?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 37,
+        "quiz_name": "Simplification Quiz 37",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 37?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 38,
+        "quiz_name": "Simplification Quiz 38",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 38?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 39,
+        "quiz_name": "Simplification Quiz 39",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 39?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 40,
+        "quiz_name": "Simplification Quiz 40",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 40?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 41,
+        "quiz_name": "Simplification Quiz 41",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 41?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 42,
+        "quiz_name": "Simplification Quiz 42",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 42?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 43,
+        "quiz_name": "Simplification Quiz 43",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 43?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 44,
+        "quiz_name": "Simplification Quiz 44",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 44?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 45,
+        "quiz_name": "Simplification Quiz 45",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 45?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 46,
+        "quiz_name": "Simplification Quiz 46",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 46?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 47,
+        "quiz_name": "Simplification Quiz 47",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 47?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 48,
+        "quiz_name": "Simplification Quiz 48",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 48?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 49,
+        "quiz_name": "Simplification Quiz 49",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 49?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 50,
+        "quiz_name": "Simplification Quiz 50",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 50?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 51,
+        "quiz_name": "Simplification Quiz 51",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 51?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 52,
+        "quiz_name": "Simplification Quiz 52",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 52?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 53,
+        "quiz_name": "Simplification Quiz 53",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 53?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 54,
+        "quiz_name": "Simplification Quiz 54",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 54?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 55,
+        "quiz_name": "Simplification Quiz 55",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 55?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 56,
+        "quiz_name": "Simplification Quiz 56",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 56?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    },
+    {
+        "quiz_id": 57,
+        "quiz_name": "Simplification Quiz 57",
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Sample Simplication Question for Quiz 57?",
+                "options": {
+                    "A": "10",
+                    "B": "20",
+                    "C": "30",
+                    "D": "40",
+                    "E": "None of these"
+                },
+                "correct_option": "A",
+                "explanation": "Standard application of BODMAS rules to evaluate expressions sequentially."
+            }
+        ]
+    }
+]

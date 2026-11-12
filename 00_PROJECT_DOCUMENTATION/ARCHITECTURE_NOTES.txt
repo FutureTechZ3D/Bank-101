@@ -1,0 +1,236 @@
+BANK-101 PROJECT ARCHITECTURE
+
+bank-101/
+│
+├── frontend/
+│
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── logo.png
+│   │   └── assets/
+│   │
+│   ├── src/
+│   │
+│   ├── app/
+│   │   ├── router/
+│   │   ├── providers/
+│   │   └── store/
+│   │
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Card.tsx
+│   │   │   ├── Modal.tsx
+│   │   │   ├── Loader.tsx
+│   │   │   └── Input.tsx
+│   │   │
+│   │   ├── dashboard/
+│   │   ├── auth/
+│   │   ├── quiz/
+│   │   ├── analytics/
+│   │   └── admin/
+│   │
+│   ├── pages/
+│   │
+│   │   ├── auth/
+│   │   │   ├── LoginPage.tsx
+│   │   │   └── SignupPage.tsx
+│   │   │
+│   │   ├── dashboard/
+│   │   │   └── DashboardPage.tsx
+│   │   │
+│   │   ├── exams/
+│   │   │   ├── BankExamPage.tsx
+│   │   │   ├── TNPSCPage.tsx
+│   │   │   ├── SSCPage.tsx
+│   │   │   ├── UPSCPage.tsx
+│   │   │   └── RRBPage.tsx
+│   │   │
+│   │   ├── subjects/
+│   │   │   ├── SimplificationPage.tsx
+│   │   │   ├── VocabularyPage.tsx
+│   │   │   ├── ReasoningPage.tsx
+│   │   │   └── TensesPage.tsx
+│   │   │
+│   │   ├── quiz/
+│   │   │   ├── QuizDetailsPage.tsx
+│   │   │   ├── QuizEnginePage.tsx
+│   │   │   └── ResultPage.tsx
+│   │   │
+│   │   ├── analytics/
+│   │   │   └── AnalyticsPage.tsx
+│   │   │
+│   │   └── admin/
+│   │       └── AdminDashboard.tsx
+│   │
+│   ├── services/
+│   │   ├── auth.service.ts
+│   │   ├── quiz.service.ts
+│   │   ├── result.service.ts
+│   │   ├── analytics.service.ts
+│   │   └── payment.service.ts
+│   │
+│   ├── hooks/
+│   │   ├── useAuth.ts
+│   │   ├── useQuiz.ts
+│   │   └── useTimer.ts
+│   │
+│   ├── contexts/
+│   │   ├── AuthContext.tsx
+│   │   └── ThemeContext.tsx
+│   │
+│   ├── layouts/
+│   │   ├── MainLayout.tsx
+│   │   ├── DashboardLayout.tsx
+│   │   └── ExamLayout.tsx
+│   │
+│   ├── utils/
+│   │   ├── constants.ts
+│   │   ├── validators.ts
+│   │   └── helpers.ts
+│   │
+│   └── types/
+│       ├── user.ts
+│       ├── quiz.ts
+│       └── result.ts
+│
+├──────────────────────────────
+│
+├── backend/
+│
+│   ├── src/
+│   │
+│   ├── config/
+│   │   ├── database.ts
+│   │   ├── jwt.ts
+│   │   └── env.ts
+│   │
+│   ├── modules/
+│   │
+│   │   ├── auth/
+│   │   │   ├── auth.controller.ts
+│   │   │   ├── auth.service.ts
+│   │   │   ├── auth.routes.ts
+│   │   │   └── auth.validation.ts
+│   │   │
+│   │   ├── users/
+│   │   │   ├── user.controller.ts
+│   │   │   ├── user.service.ts
+│   │   │   └── user.routes.ts
+│   │   │
+│   │   ├── exams/
+│   │   ├── subjects/
+│   │   ├── quizzes/
+│   │   ├── questions/
+│   │   ├── answers/
+│   │   ├── hints/
+│   │   ├── results/
+│   │   ├── leaderboard/
+│   │   ├── analytics/
+│   │   ├── certificates/
+│   │   ├── subscriptions/
+│   │   └── payments/
+│   │
+│   ├── middleware/
+│   │   ├── auth.middleware.ts
+│   │   ├── admin.middleware.ts
+│   │   └── error.middleware.ts
+│   │
+│   ├── utils/
+│   │   ├── logger.ts
+│   │   ├── mailer.ts
+│   │   └── pdfGenerator.ts
+│   │
+│   ├── jobs/
+│   │   ├── dailyMockJob.ts
+│   │   └── leaderboardJob.ts
+│   │
+│   ├── routes/
+│   │   └── index.ts
+│   │
+│   └── server.ts
+│
+├──────────────────────────────
+│
+├── database/
+│
+│   ├── migrations/
+│   ├── seeds/
+│   └── schema.sql
+│
+├──────────────────────────────
+│
+├── docs/
+│
+│   ├── API_DOCUMENTATION.md
+│   ├── DATABASE_DESIGN.md
+│   └── DEPLOYMENT_GUIDE.md
+│
+├──────────────────────────────
+│
+├── docker/
+│
+│   ├── Dockerfile.frontend
+│   ├── Dockerfile.backend
+│   └── docker-compose.yml
+│
+└── README.md
+
+
+Database Modules
+
+Main Tables:
+
+Users
+UserProfiles
+Exams
+Subjects
+QuizTests
+Questions
+Options
+Answers
+Results
+HintUsage
+Leaderboards
+DailyMockTests
+Certificates
+Subscriptions
+Payments
+Analytics
+API Structure
+/api/v1/auth
+/api/v1/users
+/api/v1/exams
+/api/v1/subjects
+/api/v1/quizzes
+/api/v1/questions
+/api/v1/results
+/api/v1/hints
+/api/v1/leaderboard
+/api/v1/analytics
+/api/v1/certificates
+/api/v1/subscriptions
+/api/v1/payments
+Recommended Tech Stack
+Frontend
+React
+TypeScript
+Tailwind CSS
+React Router
+Zustand / Redux Toolkit
+React Query
+Backend
+Node.js
+Express.js
+TypeScript
+Database
+PostgreSQL
+Authentication
+JWT
+Google OAuth
+Storage
+Supabase Storage
+Deployment
+Frontend → Vercel
+Backend → Railway
+Database → Supabase

@@ -1,0 +1,21 @@
+# dependencies and build output (regenerable)
+node_modules/
+.venv/
+.next/
+dist/
+build/
+__pycache__/
+*.pyc
+.pytest_cache/
+# secrets and private data: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+storage/
+data/
+**/storage/uploads/
+# logs and temp
+*.log
+*.tmp

@@ -1,0 +1,863 @@
+Creating an online test platform named as Bank-101  . our logo in top medium with round card design Bank101first login page .. sign up  and login both in one page but two side bars if user is first time visiting our page user has to sign up using [username ,password,phone number (optional). or  google login], then in login page can be username password or google login . next page welcome page consist of left panel sidebars has user name ,time visiting page today  middle full layer has ICON cards cards like TNPSC, RRB, SSC,TET,TRB,UPSC,BANK EXAMS . then if user click any icon cards it moves to particular page if its bank exam it will moves to BANKK EXAM  page .if it another moves to that one. so if user clicks Bank exam it moves to BANK EXAM page . then it shows preliminary icon card and main main exam card . if user click preliminary it moves to preliminary page  so its has many cards like Simplifications,Vocabulary,Reasoning,Tenses etc,..  if user click Simplification it moves to Simplification page then it consist of many Quiz Tests cards like Quiz Test 1 ,Quiz Test 2,...etc,.if user click Quiz 1 test . it moves to one page in that it will display Quiz Test 1. Question 50 .per each Questions mark will be one .Time :50  [start button] . if user clicks start it moves to Quiz Test 1 exam page  in this page left side bar it will show question in 1,2,3,4,5,....,50. math ( 10 x 5 ) vise . in left sidebar to name title Question . user exam start question from 1 to 50 in ascending order . have to show how many question remaining with colour variant in left sidebar with round shape for number showcasing .if he didint attend it shows in white colour  if he attempts and answered it mark in green he move to another question but didnt  answered it marked in red colour . its now question and answer part for this test it should be 50 qestion so for 1 question one pahe so for each questions each page last can user click and submit it to know about answers . for all question on top time notify for 50 minutes . and for each question inside time 1 min and all question page la 4 option A,B,C,D irrukum crt ahna thota  1 mark score la add agum yeah its common . last ella question and answer pagelaiyum [?] button its named as hint button.  each page laiyum previous,next button .irrukanum then . lask score reveal panrathu submit thottano last la scrore result page la .        so ithu thaan concept ithanaanga ipothaikku renda pirichurukkom pro user , free users nu .free userkku enna benefit na avanga ella quiz attend pannalaam but avanga eluthurapa orathula like right side small ah ?  hint button la verum answer mattum show pannum per quiz testkku 10 hint allowed for free users kku.if it a pro users avanga ella quiz la hint thotta answer show pannum athae samaiyam explanation um show pannum for pro users .  enakku intha project naa stitch ai ta kuduthu web apllication create panna sollanum so ipothaikku free, pro rendumae free thaan for testing purposr future la pro kku 0 pathila amount add pannipom so ipo free thaan rendumae but rendum variant ah use panni test pannanum ellarum so athukku epdini paru so . ipo enta simplification quiz test kku 8 suiz test vaikalam so ithuketha mari na oru nalla model ready pannanum using stitch ai and then i can implement this in anigravity yen idea va purinjuttu epdi na stich ta solrathu crt ahna prompt kudu  . epdi avanta solrathu ipdi oru web application venunu tu 
+
+உன் concept முழுவதும் புரிந்தது. இது ஒரு Bank-101 Competitive Exam Preparation Platform (Free + Pro Model).
+
+Stitch AI-க்கு simple prompt குடுத்தா நல்ல output வராது. அதனால முழு SaaS Web Application Architecture மாதிரி சொல்லணும்.
+
+இந்த prompt-ஐ நேரடியாக Stitch AI-க்கு கொடு:
+
+PROJECT NAME: BANK-101
+
+Create a complete modern responsive web application called "BANK-101" for competitive exam preparation.
+
+UI STYLE:
+
+Modern professional education platform
+
+White, Blue, and Gold theme
+
+Rounded cards design
+
+Mobile + Desktop responsive
+
+Clean dashboard UI
+
+Professional banking exam preparation branding
+
+Top Center:
+
+Medium sized round BANK-101 logo
+
+Main Layout:
+
+Split screen design
+
+Left Side:
+SIGN UP PANEL
+
+Fields:
+
+Username
+
+Password
+
+Phone Number (Optional)
+
+Buttons:
+
+Sign Up
+
+Continue with Google
+
+Right Side:
+LOGIN PANEL
+
+Fields:
+
+Username
+
+Password
+
+Buttons:
+
+Login
+
+Continue with Google
+
+User authentication system required.
+
+Left Sidebar:
+
+User Profile Name
+
+Today's Login Time
+
+Account Type (Free / Pro)
+
+Logout
+
+Main Content:
+Display exam category cards:
+
+TNPSC
+
+RRB
+
+SSC
+
+TET
+
+TRB
+
+UPSC
+
+BANK EXAMS
+
+Cards should have icons and hover animations.
+
+Clicking any card opens its dedicated section.
+
+Display 2 large cards:
+
+Preliminary Exam
+
+Main Exam
+
+Card click navigation required.
+
+Display Subject Cards:
+
+Simplification
+
+Vocabulary
+
+Reasoning
+
+Tenses
+
+Quantitative Aptitude
+
+English
+
+General Awareness
+
+Computer Knowledge
+
+Each subject opens quiz list page.
+
+Display 8 Quiz Cards:
+
+Quiz Test 1
+
+Quiz Test 2
+
+Quiz Test 3
+
+Quiz Test 4
+
+Quiz Test 5
+
+Quiz Test 6
+
+Quiz Test 7
+
+Quiz Test 8
+
+Card click navigation required.
+
+Show:
+
+Title:
+Quiz Test 1
+
+Details:
+
+Total Questions: 50
+
+Total Marks: 50
+
+Time: 50 Minutes
+
+One Mark Per Question
+
+Large Start Button
+
+Layout:
+
+LEFT SIDEBAR:
+Title:
+QUESTIONS
+
+Display Question Numbers:
+
+1 to 50
+
+Grid:
+10 rows × 5 columns
+
+Question Number Color Logic:
+
+White:
+Not Visited
+
+Red:
+Visited But Not Answered
+
+Green:
+Answered
+
+Show:
+
+Total Questions
+
+Answered Count
+
+Remaining Count
+
+Top Area:
+
+Quiz Test Title
+
+Global Timer:
+50 Minutes Countdown
+
+Current Question Number
+
+Question Text
+
+Options:
+
+A
+B
+C
+D
+
+Only one option selectable.
+
+Navigation:
+
+Previous Button
+Next Button
+
+Every question page contains:
+
+Hint Button ( ? )
+
+FREE USER:
+
+Maximum 10 hints per quiz
+
+Hint shows ONLY correct answer
+
+Example:
+Correct Answer: B
+
+PRO USER:
+
+Unlimited hints
+
+Show Correct Answer
+
+Show Detailed Explanation
+
+Example:
+
+Correct Answer: B
+
+Explanation:
+Detailed step-by-step explanation of the solution.
+
+Correct Answer:
++1 Mark
+
+Wrong Answer:
+0
+
+No Negative Marking
+
+Auto score calculation.
+
+User can submit anytime.
+
+After submit:
+
+Navigate to Result Page.
+
+Display:
+
+User Name
+
+Quiz Name
+
+Total Questions
+
+Answered Questions
+
+Correct Answers
+
+Wrong Answers
+
+Unanswered Questions
+
+Total Score
+
+Percentage
+
+Pass / Fail Status
+
+Performance Summary Card
+
+Progress Circle Chart
+
+FREE USER
+
+Access all quizzes
+
+10 hints per quiz
+
+Hint shows answer only
+
+PRO USER
+
+Access all quizzes
+
+Unlimited hints
+
+Hint shows answer + explanation
+
+For current testing version:
+
+Both Free and Pro should be available without payment.
+
+Admin can manually assign account type.
+
+Future Ready:
+
+Add payment integration placeholder for Pro subscription.
+
+Admin Dashboard
+
+Add Subjects
+
+Add Quiz Tests
+
+Add Questions
+
+Add Answers
+
+Add Explanations
+
+Manage Users
+
+View Scores
+
+View Analytics
+
+Users
+Subjects
+QuizTests
+Questions
+Answers
+Results
+HintUsage
+Subscriptions
+
+Frontend:
+React + TypeScript + TailwindCSS
+
+Backend:
+Node.js + Express
+
+Database:
+PostgreSQL
+
+Authentication:
+Google OAuth + Username Password
+
+Deployment Ready:
+Vercel + Supabase
+
+Generate complete UI screens, routing structure, database schema, authentication flow, dashboard components, exam engine, scoring system, hint system, and admin panel.
+
+இந்த prompt Stitch AI-க்கு குடுத்தா சாதாரண website இல்லாமல் production-ready competitive exam platform architecture generate பண்ணும்.
+
+அதுக்கப்புறம் இன்னும் professional level-ல:
+
+Question Import (Excel Upload)
+
+Random Question Generation
+
+Leaderboard
+
+Rank System
+
+Daily Mock Test
+
+AI Explanation Generator
+
+Dark Mode
+
+Certificate Generation
+
+Performance Analytics Dashboard
+
+இவையெல்லாம் v2 version prompt-ல சேர்க்கலாம். இது BANK-101 project-ஐ ஒரு full-scale EdTech platform மாதிரி உருவாக்க உதவும்.
+
+
+இந்த prompt Stitch AI-க்கு குடுத்தா சாதாரண website இல்லாமல் production-ready competitive exam platform architecture generate பண்ணும்.
+
+அதுக்கப்புறம் இன்னும் professional level-ல:
+
+Question Import (Excel Upload)
+Random Question Generation
+Leaderboard
+Rank System
+Daily Mock Test
+AI Explanation Generator
+Dark Mode/LIGHT MODE
+Certificate Generation
+Performance Analytics Dashboard
+
+இவையெல்லாம் v2 version prompt-ல சேர்க்கலாம். இது BANK-101 project-ஐ ஒரு full-scale EdTech platform மாதிரி உருவாக்க உதவும்.
+
+ஆமாம். நீ சொன்ன v2 features சேர்த்தால் BANK-101 ஒரு simple quiz website இல்லாமல் full-scale EdTech platform மாதிரி design செய்யலாம்.
+
+Stitch AI-க்கு இதை upgrade prompt ஆக கொடுக்கலாம்:
+
+UPGRADE PROJECT: BANK-101 V2 Enhance the existing BANK-101 competitive exam platform into a production-ready EdTech platform with advanced features. ================================= ADVANCED FEATURES ================================= 1. QUESTION IMPORT SYSTEM - Admin can upload Excel/CSV files - Bulk question import - Auto-validate format - Preview before import - Support answer keys and explanations 2. RANDOM QUESTION GENERATION - Randomize question order per user - Randomize options A/B/C/D - Support question pools - Prevent repeated questions 3. LEADERBOARD SYSTEM - Global leaderboard - Subject-wise leaderboard - Daily leaderboard - Weekly leaderboard - Monthly leaderboard 4. RANK SYSTEM - Rank users by score - Tie-breaking based on completion time - Display top performers 5. DAILY MOCK TEST - One daily mock test - Auto-scheduled - Limited-time access - Daily rankings 6. AI EXPLANATION GENERATOR - Generate detailed explanations for questions - Explain correct answer - Explain why other options are incorrect - Multi-language support (English / Tamil) 7. DARK MODE / LIGHT MODE - Theme toggle - Persist user preference - Smooth transitions 8. CERTIFICATE GENERATION - Generate downloadable PDF certificates - Include user name, score, date, and quiz title - Unique certificate ID 9. PERFORMANCE ANALYTICS DASHBOARD - Accuracy percentage - Subject-wise performance - Time spent analysis - Weak topic identification - Progress trends - Improvement recommendations ================================= USER EXPERIENCE ================================= - Mobile-first responsive design - Fast loading - Smooth animations - Accessibility support - Keyboard navigation ================================= ADMIN PANEL ================================= - Question bank management - Bulk import/export - User management - Subscription management - Analytics dashboard - Daily mock scheduler ================================= TECH STACK ================================= Frontend: React + TypeScript + TailwindCSS Backend: Node.js + Express Database: PostgreSQL Storage: Supabase Storage Authentication: Google OAuth + JWT Charts: Recharts or Chart.js PDF Generation: pdf-lib or jsPDF Excel Parsing: SheetJS (xlsx) ================================= SCALABILITY ================================= - Modular architecture - API-first design - Role-based access control - Production-ready deployment - Caching support - Logging and monitoring Generate complete UI screens, database schema, API endpoints, component architecture, state management strategy, and deployment structure for BANK-101 V2.
+Stitch AI-க்கு prompt கொடுக்கும்போது ஒரு முக்கிய trick
+
+ஒரே prompt-ல எல்லா features-ஐ dump பண்ணாதே. Phase-wise build சொல்லு.
+
+Recommended build order:
+
+Phase 1 (MVP)
+
+Auth
+
+Dashboard
+
+Quiz Engine
+
+Scoring
+
+Free/Pro Hint System
+
+Phase 2
+
+Question Import
+
+Random Question Generation
+
+Leaderboard & Rank
+
+Phase 3
+
+Daily Mock Tests
+
+Performance Analytics
+
+Certificates
+
+Phase 4
+
+AI Explanations
+
+Advanced Analytics
+
+Subscription Payments
+
+Why this order?
+இந்த order-ல build பண்ணினா:
+
+Core exam engine first stable ஆகும்.
+
+Users immediately test செய்ய முடியும்.
+
+Data structure future features-க்கு ready ஆக இருக்கும்.
+
+AI features later plug-in மாதிரி add செய்ய முடியும்.
+
+Extra professional touch
+Stitch AI prompt-ல இந்த line சேர்த்தா architecture இன்னும் clean ஆக வரும்:
+
+Architecture requirement
+“Use a modular architecture with separate services for Authentication, Quiz Engine, Analytics, and Subscription Management. Design all APIs versioned (/api/v1/...) and future-proof the database schema for payment integration.”
+
+இந்த line சேர்ப்பதால் later Razorpay/Stripe integration, mobile app, analytics microservice போன்றவற்றை add பண்ண எளிதாகும்.
+
+நீ விரும்பினால் அடுத்ததாக 
+ அல்லது 
+ மாதிரியும் generate பண்ணிக்கொடுகிறேன்.
+
+
+Generate the BANK-101 frontend and backend folder structure and architecture.
+
+உன் BANK-101 project future-ல Web App + Mobile App + Subscription Platform ஆக scale ஆகணும்னா, ஆரம்பத்திலேயே clean architecture use பண்ணணும்.
+
+BANK-101 PROJECT ARCHITECTURE
+
+bank-101/
+│
+├── frontend/
+│
+│ ├── public/
+│ │ ├── favicon.ico
+│ │ ├── logo.png
+│ │ └── assets/
+│ │
+│ ├── src/
+│ │
+│ ├── app/
+│ │ ├── router/
+│ │ ├── providers/
+│ │ └── store/
+│ │
+│ ├── components/
+│ │ ├── common/
+│ │ │ ├── Button.tsx
+│ │ │ ├── Card.tsx
+│ │ │ ├── Modal.tsx
+│ │ │ ├── Loader.tsx
+│ │ │ └── Input.tsx
+│ │ │
+│ │ ├── dashboard/
+│ │ ├── auth/
+│ │ ├── quiz/
+│ │ ├── analytics/
+│ │ └── admin/
+│ │
+│ ├── pages/
+│ │
+│ │ ├── auth/
+│ │ │ ├── LoginPage.tsx
+│ │ │ └── SignupPage.tsx
+│ │ │
+│ │ ├── dashboard/
+│ │ │ └── DashboardPage.tsx
+│ │ │
+│ │ ├── exams/
+│ │ │ ├── BankExamPage.tsx
+│ │ │ ├── TNPSCPage.tsx
+│ │ │ ├── SSCPage.tsx
+│ │ │ ├── UPSCPage.tsx
+│ │ │ └── RRBPage.tsx
+│ │ │
+│ │ ├── subjects/
+│ │ │ ├── SimplificationPage.tsx
+│ │ │ ├── VocabularyPage.tsx
+│ │ │ ├── ReasoningPage.tsx
+│ │ │ └── TensesPage.tsx
+│ │ │
+│ │ ├── quiz/
+│ │ │ ├── QuizDetailsPage.tsx
+│ │ │ ├── QuizEnginePage.tsx
+│ │ │ └── ResultPage.tsx
+│ │ │
+│ │ ├── analytics/
+│ │ │ └── AnalyticsPage.tsx
+│ │ │
+│ │ └── admin/
+│ │ └── AdminDashboard.tsx
+│ │
+│ ├── services/
+│ │ ├── auth.service.ts
+│ │ ├── quiz.service.ts
+│ │ ├── result.service.ts
+│ │ ├── analytics.service.ts
+│ │ └── payment.service.ts
+│ │
+│ ├── hooks/
+│ │ ├── useAuth.ts
+│ │ ├── useQuiz.ts
+│ │ └── useTimer.ts
+│ │
+│ ├── contexts/
+│ │ ├── AuthContext.tsx
+│ │ └── ThemeContext.tsx
+│ │
+│ ├── layouts/
+│ │ ├── MainLayout.tsx
+│ │ ├── DashboardLayout.tsx
+│ │ └── ExamLayout.tsx
+│ │
+│ ├── utils/
+│ │ ├── constants.ts
+│ │ ├── validators.ts
+│ │ └── helpers.ts
+│ │
+│ └── types/
+│ ├── user.ts
+│ ├── quiz.ts
+│ └── result.ts
+│
+├──────────────────────────────
+│
+├── backend/
+│
+│ ├── src/
+│ │
+│ ├── config/
+│ │ ├── database.ts
+│ │ ├── jwt.ts
+│ │ └── env.ts
+│ │
+│ ├── modules/
+│ │
+│ │ ├── auth/
+│ │ │ ├── auth.controller.ts
+│ │ │ ├── auth.service.ts
+│ │ │ ├── auth.routes.ts
+│ │ │ └── auth.validation.ts
+│ │ │
+│ │ ├── users/
+│ │ │ ├── user.controller.ts
+│ │ │ ├── user.service.ts
+│ │ │ └── user.routes.ts
+│ │ │
+│ │ ├── exams/
+│ │ ├── subjects/
+│ │ ├── quizzes/
+│ │ ├── questions/
+│ │ ├── answers/
+│ │ ├── hints/
+│ │ ├── results/
+│ │ ├── leaderboard/
+│ │ ├── analytics/
+│ │ ├── certificates/
+│ │ ├── subscriptions/
+│ │ └── payments/
+│ │
+│ ├── middleware/
+│ │ ├── auth.middleware.ts
+│ │ ├── admin.middleware.ts
+│ │ └── error.middleware.ts
+│ │
+│ ├── utils/
+│ │ ├── logger.ts
+│ │ ├── mailer.ts
+│ │ └── pdfGenerator.ts
+│ │
+│ ├── jobs/
+│ │ ├── dailyMockJob.ts
+│ │ └── leaderboardJob.ts
+│ │
+│ ├── routes/
+│ │ └── index.ts
+│ │
+│ └── server.ts
+│
+├──────────────────────────────
+│
+├── database/
+│
+│ ├── migrations/
+│ ├── seeds/
+│ └── schema.sql
+│
+├──────────────────────────────
+│
+├── docs/
+│
+│ ├── API_DOCUMENTATION.md
+│ ├── DATABASE_DESIGN.md
+│ └── DEPLOYMENT_GUIDE.md
+│
+├──────────────────────────────
+│
+├── docker/
+│
+│ ├── Dockerfile.frontend
+│ ├── Dockerfile.backend
+│ └── docker-compose.yml
+│
+└── README.md
+
+Database Modules
+Main Tables:
+
+Users
+
+UserProfiles
+
+Exams
+
+Subjects
+
+QuizTests
+
+Questions
+
+Options
+
+Answers
+
+Results
+
+HintUsage
+
+Leaderboards
+
+DailyMockTests
+
+Certificates
+
+Subscriptions
+
+Payments
+
+Analytics
+
+API Structure
+/api/v1/auth
+/api/v1/users
+/api/v1/exams
+/api/v1/subjects
+/api/v1/quizzes
+/api/v1/questions
+/api/v1/results
+/api/v1/hints
+/api/v1/leaderboard
+/api/v1/analytics
+/api/v1/certificates
+/api/v1/subscriptions
+/api/v1/payments
+Recommended Tech Stack
+Frontend
+React
+
+TypeScript
+
+Tailwind CSS
+
+React Router
+
+Zustand / Redux Toolkit
+
+React Query
+
+Backend
+Node.js
+
+Express.js
+
+TypeScript
+
+Database
+PostgreSQL
+
+Authentication
+JWT
+
+Google OAuth
+
+Storage
+Supabase Storage
+
+Deployment
+Frontend → Vercel
+
+Backend → Railway
+
+Database → Supabase
+
+இந்த architecture-ல build பண்ணினா BANK-101
+
+✅ PDF — BANK-101 Project Document
+PDF-ல இவை எல்லாம் உள்ளன:
+
+Project Overview — என்ன build பண்றோம், யாருக்கு, எப்படி
+Application Flow — Auth → Dashboard → Quiz Engine → Result — step by step
+Hint System Table — Free vs Pro comparison
+Database Strategy — 3 lakh+ questions handle பண்ண full schema (17 tables)
+AI Integration — Explanation generator + Question parser + Syllabus-based generation
+Exam Content Structure — TNPSC Groups, Bank SBI/IBPS, SSC CGL/CHSL, RRB NTPC எல்லாம் mapped
+Antigravity Implementation Prompt — Copy-paste ready, complete prompt
+Phase-wise Build Plan — 5 phases, 10 weeks
+Next Steps — Supabase connect → sample questions → test flow
+
+
+✅ Antigravity Prompt — How to Use
+PDF-ல Section 6 open பண்ணு — அந்த code block-ல இருக்கற entire prompt-ஐ copy பண்ணி Antigravity-ல paste பண்ணு. அது generate பண்ணும்:
+
+Full UI screens (Auth, Dashboard, Quiz Engine, Result, Admin)
+React + TypeScript component structure
+PostgreSQL schema SQL
+Express API routes
+Quiz engine logic + hint system
+Deployment config
+
+BANK-101 V2 – Professional Feature Expansion
+Question Management
+Bulk Question Import
+Upload Excel (.xlsx) files,word document ,pdf,ppt,json files.
+Columns: Subject, Topic, Question, OptionA, OptionB, OptionC, OptionD, CorrectAnswer, Explanation, Difficulty
+Preview imported questions before saving
+Validation for duplicate or incomplete rows
+Question Bank
+Store all questions centrally
+Filter by Subject, Topic, Difficulty, and Status
+Edit/Delete questions from admin panel
+Randomized Quiz Engine
+Generate random question sets from the question bank.
+Prevent repeated questions within the same attempt.
+Support mixed-difficulty quizzes.
+Allow configurable quiz patterns (e.g., 20 easy, 20 medium, 10 hard).
+Leaderboard & Rank System
+Global leaderboard
+Subject-wise leaderboard
+Daily / Weekly / Monthly rankings
+Rank badges (Bronze, Silver, Gold, Platinum)
+User profile shows current rank and score history
+Daily Mock Test
+Automatically publish one mock test per day.
+Available to all users.
+Separate leaderboard for daily tests.
+Streak tracking (consecutive days completed).
+AI Explanation Generator
+For questions without explanations, generate explanations automatically using AI.
+Show step-by-step reasoning for quantitative questions.
+Show grammar/vocabulary reasoning for English questions.
+Allow admin to review and edit AI-generated explanations.
+Theme Support
+Light Mode and Dark Mode toggle.
+Persist user preference in local storage or database.
+Ensure accessibility contrast ratios.
+Certificate Generation
+Generate PDF certificates after completing eligible mock tests.
+Include user name, score, percentage, date, and unique certificate ID.
+Allow certificate download and verification.
+Performance Analytics Dashboard
+For users:
+Accuracy percentage
+Topic-wise strengths and weaknesses
+Average time per question
+Progress charts
+Recent test history
+For admins:
+Total users
+Active users
+Quiz completion rates
+Most difficult questions
+Subject performance analytics
+Suggested Additional Tables
+Table
+Purpose
+QuestionBank
+Master question repository
+QuizAttempts
+User quiz attempts
+Leaderboards
+Rank storage
+Certificates
+Generated certificate records
+UserStatistics
+Aggregated analytics
+DailyMocks
+Scheduled daily tests
+Suggested UI Improvements
+Animated progress bars
+Circular score indicators
+Sticky timer during exams
+Keyboard shortcuts (A/B/C/D selection)
+Review marked questions before submit
+Responsive mobile exam mode
+Future Monetization Hooks
+Subscription plans (Monthly / Yearly)
+Coupon system
+Premium test series
+AI explanation credits
+Referral rewards
+Practical Tip
+First build v1 (core exam engine) completely.
+Then add v2 features in phases:
+Excel Import + Question Bank
+Random Quiz Engine
+Leaderboard + Rank System
+Analytics Dashboard
+AI Explanations
+Certificates + Payments
+
+
+
+

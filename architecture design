@@ -1,0 +1,108 @@
+Both the Web Application and Android APK are configured to share a unified codebase (React 19 + Tailwind CSS + Capacitor 8). Any feature, exam directory, CBT test interface, or AI tutor screen you build runs seamlessly on both platforms.
+
+Architecture Overview
+                      ┌──────────────────────────────────────┐
+                      │    BANK-101 Unified Frontend         │
+                      │       (React 19 + Tailwind)          │
+                      └──────────────────┬───────────────────┘
+                                         │
+                    ┌────────────────────┴────────────────────┐
+                    ▼                                         ▼
+         ┌─────────────────────┐                   ┌─────────────────────┐
+         │   Web Application   │                   │     Android APK     │
+         │   (Vite Production) │                   │  (Capacitor 8 + AGP)│
+         │      `dist/`        │                   │ `android/app/build` │
+         └──────────┬──────────┘                   └──────────┬──────────┘
+                    │                                         │
+                    └────────────────────┬────────────────────┘
+                                         ▼
+                            ┌────────────────────────┐
+                            │    BANK-101 Backend    │
+                            │ (Express + PostgreSQL) │
+                            └────────────────────────┘
+Step 1: Web Application (Development & Production)
+A. Running in Local Development Mode
+
+In two terminal tabs:
+
+powershell
+# Tab 1: Start Backend (Port 5000)
+cd "D:\(!SanjayASK Projects\BANK-101\BANK101\backend"
+npm run dev
+# Tab 2: Start Frontend (Port 3000 with auto-proxy to 5000)
+cd "D:\(!SanjayASK Projects\BANK-101\BANK101\frontend"
+npm run dev
+
+Open http://localhost:3000
+ in your browser.
+
+B. Building for Production Web
+powershell
+cd "D:\(!SanjayASK Projects\BANK-101\BANK101\frontend"
+npm run build
+The production assets are output to BANK101/frontend/dist/.
+You can host dist/ on Netlify, Vercel, AWS S3/CloudFront, or have the Express backend serve it as static files.
+Step 2: Building the Android APK
+
+The native Android project has been initialized and synced at BANK101/frontend/android.
+
+Choose the method that fits your workflow:
+
+Option A: Android Studio (Recommended for Visual Testing & USB Debugging)
+Open Android Studio.
+Select Open and choose folder: D:\(!SanjayASK Projects\BANK-101\BANK101\frontend\android
+Android Studio will automatically resolve Gradle dependencies and set up the SDK.
+From the top menu, click: Build > Build Bundle(s) / APK(s) > Build APK(s)
+A popup will appear in the bottom-right: click locate to access app-debug.apk. You can transfer and install this APK on any Android phone.
+Option B: GitHub Actions (Zero Local Setup — Cloud Build)
+
+A CI/CD workflow is located at .github/workflows/build-apk.yml.
+
+Initialize a git repository and push your project to GitHub (or your preferred remote):
+powershell
+git init
+git add .
+git commit -m "feat: complete BANK-101 platform with native Android support"
+git branch -M main
+git remote add origin <your-github-repo-url>
+git push -u origin main
+Navigate to your GitHub repository and open the Actions tab.
+Select the Build Android APK & Web App workflow.
+Once completed (approx. 2-3 minutes), download the ready-to-install BANK101-Android-APK directly from the Artifacts section.
+Option C: Local Command Line (Requires Android SDK)
+
+If you configure ANDROID_HOME pointing to your Android SDK:
+
+powershell
+# 1. Point to Java 17 (installed on your system)
+$env:JAVA_HOME = "C:\Program Files\Java\jdk-17"
+# 2. Point to your Android SDK location
+$env:ANDROID_HOME = "C:\Users\<User>\AppData\Local\Android\Sdk"
+# 3. Build Web & Sync to Android
+cd "D:\(!SanjayASK Projects\BANK-101\BANK101\frontend"
+npm run build
+npm run cap:sync
+# 4. Compile APK
+cd "android"
+.\gradlew.bat assembleDebug
+
+The compiled APK will be created at: BANK101/frontend/android/app/build/outputs/apk/debug/app-debug.apk
+
+Step 3: Connecting the Android App to the Backend
+
+When running on an Android device or emulator, localhost refers to the mobile device itself, not your development PC.
+
+For Local Testing over Wi-Fi:
+
+Check your computer's local Wi-Fi IP address (e.g. ipconfig -> 192.168.1.15).
+Create a .env.production file in BANK101/frontend:
+ini
+VITE_API_BASE_URL=http://192.168.1.15:5000/api/v1
+Re-run npm run build && npm run cap:sync before generating the APK.
+Note: android:usesCleartextTraffic="true" is enabled in AndroidManifest.xml so Android allows local HTTP connections without requiring an SSL certificate during development.
+
+For Cloud Production:
+
+Point VITE_API_BASE_URL to your live domain:
+ini
+VITE_API_BASE_URL=https://api.yourbank101domain.com/api/v1
