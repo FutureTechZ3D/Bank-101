@@ -17,6 +17,8 @@ async function main() {
   const user = process.env.E2E_ADMIN_USER || 'e2e_admin';
   const pass = process.env.E2E_ADMIN_PASS || 'e2e-admin-passphrase-1';
   await pool.query("INSERT INTO users (username, password_hash, account_type) VALUES ($1, $2, 'Admin')", [user, await bcrypt.hash(pass, 10)]);
+  // Also provide simple admin credentials
+  await pool.query("INSERT INTO users (username, password_hash, account_type) VALUES ($1, $2, 'Admin')", ['admin', await bcrypt.hash('admin123456', 10)]);
 
   // E2E_BANK=1: also load the independently verified question bank (database/import/verified.json)
   if (process.env.E2E_BANK === '1') {

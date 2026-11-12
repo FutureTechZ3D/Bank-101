@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { api, errorText } from '../../lib/api';
 
 const SAMPLE_CSV = `question_text,question_type,opt_a,opt_b,opt_c,opt_d,opt_e,correct_option,explanation,topic_name
@@ -31,6 +31,11 @@ const SAMPLE_JSON = `[
 ]`;
 
 export default function AdminUpload() {
+  const [pipelineStats, setPipelineStats] = useState<any>(null);
+  const [pipelineLoading, setPipelineLoading] = useState(false);
+  const [pipelineResult, setPipelineResult] = useState<any>(null);
+
+  // Manual Ingestion states
   const [format, setFormat] = useState<'json' | 'csv'>('json');
   const [datasetName, setDatasetName] = useState('Standard Question Bank Batch');
   const [content, setContent] = useState('');
@@ -39,6 +44,39 @@ export default function AdminUpload() {
   const [status, setStatus] = useState<any>(null);
   const [validationResult, setValidationResult] = useState<any>(null);
   const [loading, setLoading] = useState(false);
+
+  const fetchStats = async () => {
+    try {
+      const res = await api('/admin/pipeline/stats');
+      if (res.ok && res.data.success) {
+        setPipelineStats(res.data.stats);
+      }
+    } catch {
+      // Fallback silently if not available
+    }
+  };
+
+  useEffect(() => {
+    fetchStats();
+  }, []);
+
+  const handleRunPipeline = async (scope: string = 'all') => {
+    setPipelineLoading(true);
+    setPipelineResult(null);
+    try {
+      const res = await api('/admin/pipeline/run', {
+        method: 'POST',
+        body: { scope },
+      });
+      if (!res.ok) throw new Error(errorText(res, 'Pipeline execution failed'));
+      setPipelineResult(res.data.summary);
+      await fetchStats();
+    } catch (e: any) {
+      alert(`Pipeline error: ${e.message}`);
+    } finally {
+      setPipelineLoading(false);
+    }
+  };
 
   const handlePreview = async () => {
     setStatus(null);
@@ -95,6 +133,7 @@ export default function AdminUpload() {
       });
       setValidationResult(null);
       setContent('');
+      await fetchStats();
     } catch (e: any) {
       setStatus({ type: 'error', msg: e.message });
     } finally {
@@ -104,27 +143,124 @@ export default function AdminUpload() {
 
   return (
     <div className="flex-1 overflow-y-auto bg-slate-950 p-6 md:p-10 text-white flex justify-center transition-colors duration-300">
-      <div className="w-full max-w-4xl space-y-8">
+      <div className="w-full max-w-5xl space-y-8">
         <header>
-          <div className="flex items-center gap-2 mb-2 text-red-500 font-bold text-xs uppercase tracking-wider">
-            <span className="material-symbols-outlined text-sm">cloud_upload</span>
-            Dataset Ingestion Pipeline
+          <div className="flex items-center gap-2 mb-2 text-blue-500 font-bold text-xs uppercase tracking-wider">
+            <span className="material-symbols-outlined text-sm">hub</span>
+            Unified Examination & Academic Ingestion Engine
           </div>
-          <h1 className="font-black text-3xl text-white">Universal Question Ingestion Node</h1>
+          <h1 className="font-black text-3xl text-white">Academic Knowledge Pipeline</h1>
           <p className="text-slate-400 mt-2 text-xs leading-relaxed">
-            Ingest question datasets via CSV or JSON with instant schema validation, numerical tolerance support, and atomic rollbacks.
+            Automated open-source ingestion engine for NCERT, Tamil Nadu SCERT textbooks, UPSC/TNPSC/SSC past-year papers, and custom dataset ingestion.
           </p>
         </header>
 
-        <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 md:p-8 space-y-6">
-          {/* Format and Templates */}
+        {/* ── SECTION 1: LIVE REPOSITORY METRICS ────────────────────────────── */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-sm">
+            <div className="text-slate-400 text-[10px] font-bold uppercase tracking-wider">Questions in Bank</div>
+            <div className="text-2xl font-black text-blue-400 mt-1">{pipelineStats?.total_questions ?? '...'}</div>
+            <div className="text-[10px] text-slate-500 mt-0.5">MCQs & Numerical Problems</div>
+          </div>
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-sm">
+            <div className="text-slate-400 text-[10px] font-bold uppercase tracking-wider">CBT Mock Tests</div>
+            <div className="text-2xl font-black text-amber-400 mt-1">{pipelineStats?.total_quizzes ?? '...'}</div>
+            <div className="text-[10px] text-slate-500 mt-0.5">National & State Mock Exams</div>
+          </div>
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-sm">
+            <div className="text-slate-400 text-[10px] font-bold uppercase tracking-wider">Digital Books</div>
+            <div className="text-2xl font-black text-emerald-400 mt-1">{pipelineStats?.total_books ?? '...'}</div>
+            <div className="text-[10px] text-slate-500 mt-0.5">{pipelineStats?.total_chapters ?? '...'} Indexed Chapters</div>
+          </div>
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-sm">
+            <div className="text-slate-400 text-[10px] font-bold uppercase tracking-wider">Official PYQs</div>
+            <div className="text-2xl font-black text-purple-400 mt-1">{pipelineStats?.total_pyq_papers ?? '...'}</div>
+            <div className="text-[10px] text-slate-500 mt-0.5">{pipelineStats?.total_pyq_questions ?? '...'} Verified PYQ Items</div>
+          </div>
+        </div>
+
+        {/* ── SECTION 2: ONE-CLICK AUTOMATED OPEN-SOURCE HARVESTER ──────────── */}
+        <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-blue-950/40 border border-blue-900/40 rounded-3xl p-6 md:p-8 space-y-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div>
+              <div className="flex items-center gap-2 text-blue-400 text-xs font-black uppercase tracking-wider">
+                <span className="material-symbols-outlined text-base">auto_awesome</span>
+                Automated Open-Source Academic Harvester
+              </div>
+              <h2 className="text-xl font-black text-white mt-1">Populate Platform with Verified Open Content</h2>
+              <p className="text-slate-400 text-xs mt-1">
+                Fetches, validates, and indexes NCERT textbooks (Classes 6-12), Tamil Nadu SCERT (Samacheer Kalvi), UPSC/TNPSC past papers, and curated bilingual question banks.
+              </p>
+            </div>
+
+            <button
+              onClick={() => handleRunPipeline('all')}
+              disabled={pipelineLoading}
+              className="bg-blue-600 hover:bg-blue-500 text-white font-black text-xs px-6 py-3.5 rounded-xl transition-all flex items-center gap-2 cursor-pointer shadow-lg shadow-blue-600/30 whitespace-nowrap disabled:opacity-50"
+            >
+              <span className="material-symbols-outlined text-base">download_for_offline</span>
+              {pipelineLoading ? 'Harvesting & Ingesting...' : 'Harvest & Ingest All Data'}
+            </button>
+          </div>
+
+          <div className="flex flex-wrap gap-2 pt-2 border-t border-slate-800/80">
+            <button
+              onClick={() => handleRunPipeline('questions')}
+              disabled={pipelineLoading}
+              className="bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold px-3 py-2 rounded-lg flex items-center gap-1.5 transition-colors disabled:opacity-40"
+            >
+              <span className="material-symbols-outlined text-sm">quiz</span>
+              Ingest Questions & Mocks Only
+            </button>
+            <button
+              onClick={() => handleRunPipeline('books')}
+              disabled={pipelineLoading}
+              className="bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold px-3 py-2 rounded-lg flex items-center gap-1.5 transition-colors disabled:opacity-40"
+            >
+              <span className="material-symbols-outlined text-sm">menu_book</span>
+              Ingest NCERT & SCERT Books Only
+            </button>
+            <button
+              onClick={() => handleRunPipeline('pyqs')}
+              disabled={pipelineLoading}
+              className="bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold px-3 py-2 rounded-lg flex items-center gap-1.5 transition-colors disabled:opacity-40"
+            >
+              <span className="material-symbols-outlined text-sm">history_edu</span>
+              Ingest Official PYQs Only
+            </button>
+          </div>
+
+          {/* Pipeline execution summary banner */}
+          {pipelineResult && (
+            <div className="bg-emerald-950/30 border border-emerald-900/60 p-4 rounded-2xl space-y-2">
+              <div className="text-xs font-black text-emerald-400 flex items-center gap-1.5">
+                <span className="material-symbols-outlined text-sm">check_circle</span>
+                Ingestion Completed Successfully in {(pipelineResult.duration_ms / 1000).toFixed(2)}s
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs text-slate-300 font-mono">
+                <div>+ {pipelineResult.total_questions_imported} Questions</div>
+                <div>+ {pipelineResult.total_mock_tests_created} Mock Tests</div>
+                <div>+ {pipelineResult.total_books_imported} Books ({pipelineResult.total_chapters_imported} Chs)</div>
+                <div>+ {pipelineResult.total_pyq_papers_imported} PYQ Papers</div>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* ── SECTION 3: MANUAL CSV / JSON INGESTION NODE ───────────────────── */}
+        <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 md:p-8 space-y-6">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div>
+              <h2 className="text-lg font-black text-white">Custom Dataset File Ingestion Node</h2>
+              <p className="text-slate-400 text-xs mt-0.5">Upload custom question banks via CSV or JSON format with instant validation.</p>
+            </div>
+
             <div className="flex items-center gap-3">
               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Format:</span>
               <button
                 onClick={() => { setFormat('json'); setValidationResult(null); }}
                 className={`px-4 py-2 rounded-xl text-xs font-black transition-all ${
-                  format === 'json' ? 'bg-red-600 text-white shadow-md' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                  format === 'json' ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                 }`}
               >
                 JSON Payload
@@ -132,13 +268,15 @@ export default function AdminUpload() {
               <button
                 onClick={() => { setFormat('csv'); setValidationResult(null); }}
                 className={`px-4 py-2 rounded-xl text-xs font-black transition-all ${
-                  format === 'csv' ? 'bg-red-600 text-white shadow-md' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                  format === 'csv' ? 'bg-blue-600 text-white shadow-md' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                 }`}
               >
                 CSV / Spreadsheet
               </button>
             </div>
+          </div>
 
+          <div className="flex justify-end">
             <button
               onClick={() => {
                 setContent(format === 'json' ? SAMPLE_JSON : SAMPLE_CSV);
@@ -162,7 +300,7 @@ export default function AdminUpload() {
                 type="text"
                 value={datasetName}
                 onChange={(e) => setDatasetName(e.target.value)}
-                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white font-medium text-xs focus:outline-none focus:border-red-500"
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white font-medium text-xs focus:outline-none focus:border-blue-500"
               />
             </div>
 
@@ -176,7 +314,7 @@ export default function AdminUpload() {
                   id="createQuiz"
                   checked={createQuiz}
                   onChange={(e) => setCreateQuiz(e.target.checked)}
-                  className="w-4 h-4 accent-red-600 rounded cursor-pointer"
+                  className="w-4 h-4 accent-blue-600 rounded cursor-pointer"
                 />
                 <input
                   type="text"
@@ -184,7 +322,7 @@ export default function AdminUpload() {
                   value={quizTitle}
                   onChange={(e) => setQuizTitle(e.target.value)}
                   placeholder="Test Name"
-                  className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-4 py-2 text-white font-medium text-xs focus:outline-none focus:border-red-500 disabled:opacity-40"
+                  className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-4 py-2 text-white font-medium text-xs focus:outline-none focus:border-blue-500 disabled:opacity-40"
                 />
               </div>
             </div>
@@ -198,9 +336,9 @@ export default function AdminUpload() {
             <textarea
               value={content}
               onChange={(e) => setContent(e.target.value)}
-              rows={10}
+              rows={8}
               placeholder={format === 'json' ? 'Paste JSON array here...' : 'Paste CSV lines here...'}
-              className="w-full bg-slate-950 border border-slate-800 rounded-2xl p-4 text-emerald-400 font-mono text-xs focus:outline-none focus:border-red-500 transition-colors resize-y leading-relaxed"
+              className="w-full bg-slate-950 border border-slate-800 rounded-2xl p-4 text-emerald-400 font-mono text-xs focus:outline-none focus:border-blue-500 transition-colors resize-y leading-relaxed"
             />
           </div>
 
@@ -247,7 +385,7 @@ export default function AdminUpload() {
             <button
               onClick={handleImport}
               disabled={loading || !content.trim()}
-              className="flex-1 bg-red-600 hover:bg-red-500 text-white font-black text-xs py-3.5 rounded-xl disabled:opacity-50 transition-all flex justify-center items-center gap-2 cursor-pointer uppercase tracking-wider shadow-md shadow-red-500/10"
+              className="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-black text-xs py-3.5 rounded-xl disabled:opacity-50 transition-all flex justify-center items-center gap-2 cursor-pointer uppercase tracking-wider shadow-md shadow-blue-500/10"
             >
               <span className="material-symbols-outlined text-base">publish</span>
               {loading ? 'Processing...' : '2. Execute Atomic Import'}

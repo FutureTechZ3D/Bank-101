@@ -12,7 +12,8 @@
     "test": "node --require ts-node/register/transpile-only --test \"tests/**/*.test.ts\"",
     "dev:test-server": "node --require ts-node/register/transpile-only tests/devServer.ts",
     "test:pg": "node tests/run-pg.cjs",
-    "import:bank": "ts-node --transpile-only src/scripts/importBank.ts"
+    "import:bank": "ts-node --transpile-only src/scripts/importBank.ts",
+    "pipeline:ingest": "ts-node --transpile-only src/scripts/runPipeline.ts"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

@@ -9,6 +9,7 @@ import { libraryRouter } from './modules/library/library.routes';
 import { aiRouter } from './modules/ai/ai.routes';
 import { institutionRouter } from './modules/institutions/institution.routes';
 import { complianceRouter } from './modules/compliance/compliance.routes';
+import pipelineRoutes from './pipeline/pipeline.routes';
 import { corsOrigins, authRateLimitMax, isProduction } from './config/env';
 import { rateLimit } from './middleware/rateLimit';
 
@@ -38,6 +39,7 @@ export function createApp() {
   app.use('/api/v1/compliance', complianceRouter);
   app.use('/api/v1', quizRoutes); // exams, subjects, quizzes, attempts, hints
   app.use('/api/v1/admin/datasets', datasetRouter);
+  app.use('/api/v1/admin/pipeline', pipelineRoutes);
   app.use('/api/v1/admin', adminRoutes);
 
   app.get('/health', (_req, res) => {
