@@ -2,7 +2,7 @@ import { IngestPYQPaper } from '../types';
 
 export const OFFICIAL_PYQS: IngestPYQPaper[] = [
   {
-    exam_slug: 'upsc-civil-services',
+    exam_slug: 'upsc-cse',
     stage_code: 'PRELIMS',
     paper_code: 'GS1',
     year: 2023,
@@ -80,3 +80,4 @@ export const OFFICIAL_PYQS: IngestPYQPaper[] = [
     ],
   },
 ];
+

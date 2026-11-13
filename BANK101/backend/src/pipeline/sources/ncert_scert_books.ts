@@ -9,7 +9,7 @@ export const NCERT_SCERT_BOOKS: IngestBook[] = [
     rights_status: 'CREATIVE_COMMONS',
     source_url: 'https://ncert.nic.in/textbook.php?keps2=0-10',
     subject_name: 'Indian Polity & Governance',
-    exam_slugs: ['upsc-civil-services', 'tnpsc-group-1', 'tnpsc-group-2', 'ssc-cgl'],
+    exam_slugs: ['upsc-cse', 'tnpsc-group-1', 'tnpsc-group-2', 'ssc-cgl'],
     chapters: [
       {
         chapter_number: 1,
@@ -69,7 +69,7 @@ export const NCERT_SCERT_BOOKS: IngestBook[] = [
     rights_status: 'PUBLIC_DOMAIN',
     source_url: 'https://www.textbooksonline.tn.nic.in/',
     subject_name: 'Tamil Society, Culture & Heritage',
-    exam_slugs: ['tnpsc-group-1', 'tnpsc-group-2', 'tnpsc-group-4', 'trb-tntet'],
+    exam_slugs: ['tnpsc-group-1', 'tnpsc-group-2', 'tnpsc-group-4', 'tntet'],
     chapters: [
       {
         chapter_number: 1,
@@ -105,7 +105,7 @@ export const NCERT_SCERT_BOOKS: IngestBook[] = [
     rights_status: 'CREATIVE_COMMONS',
     source_url: 'https://ncert.nic.in/textbook.php?lehs3=0-6',
     subject_name: 'Indian History & National Movement',
-    exam_slugs: ['upsc-civil-services', 'tnpsc-group-1', 'ssc-cgl'],
+    exam_slugs: ['upsc-cse', 'tnpsc-group-1', 'ssc-cgl'],
     chapters: [
       {
         chapter_number: 1,
@@ -170,3 +170,4 @@ export const NCERT_SCERT_BOOKS: IngestBook[] = [
     ],
   },
 ];
+

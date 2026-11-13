@@ -71,3 +71,4 @@ export async function triggerPipelineRun(scope?: string): Promise<IngestionSumma
     duration_ms: Date.now() - start,
   };
 }
+

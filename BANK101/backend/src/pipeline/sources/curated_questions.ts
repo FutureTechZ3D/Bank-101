@@ -3,7 +3,7 @@ import { IngestQuestion } from '../types';
 export const CURATED_QUESTIONS: IngestQuestion[] = [
   // ── 01. UPSC & TNPSC: Indian Polity & Constitution ──────────────────────────
   {
-    exam_slug: 'upsc-civil-services',
+    exam_slug: 'upsc-cse',
     stage_code: 'PRELIMS',
     paper_code: 'GS1',
     subject_name: 'Indian Polity & Governance',
@@ -23,7 +23,7 @@ export const CURATED_QUESTIONS: IngestQuestion[] = [
     source_reference: 'UPSC CSE Prelims 2019 Paper 1, Q.32',
   },
   {
-    exam_slug: 'upsc-civil-services',
+    exam_slug: 'upsc-cse',
     stage_code: 'PRELIMS',
     paper_code: 'GS1',
     subject_name: 'Indian Polity & Governance',
@@ -212,3 +212,4 @@ export const CURATED_QUESTIONS: IngestQuestion[] = [
     source_reference: 'NEET UG 2023 Biology Paper',
   },
 ];
+

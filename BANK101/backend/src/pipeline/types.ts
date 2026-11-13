@@ -93,3 +93,4 @@ export interface IngestionSummary {
   categories: string[];
   duration_ms: number;
 }
+

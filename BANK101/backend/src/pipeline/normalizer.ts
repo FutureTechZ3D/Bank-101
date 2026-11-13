@@ -64,3 +64,4 @@ export function cleanMathText(text: string): string {
     .replace(/\\\)/g, '$')
     .trim();
 }
+
